@@ -43,10 +43,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b5a8b26-7bcb-416b-97fd-e917641f41fc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_ChangeLog.txt" afterPath="$PROJECT_DIR$/_ChangeLog.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/comli/dawnbreaksthrough/personalintro/PersonDetailFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/comli/dawnbreaksthrough/personalintro/PersonDetailFragment.java" />
     </list>
     <ignored path="PersonalIntro.iws" />
@@ -2415,16 +2411,16 @@
       <workItem from="1473959235043" duration="364000" />
       <workItem from="1473962027603" duration="129000" />
       <workItem from="1473963840100" duration="180000" />
-      <workItem from="1473965412843" duration="20000" />
+      <workItem from="1473965412843" duration="320000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125530000" />
+    <option name="totallyTimeSpent" value="125830000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1934" height="1094" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
