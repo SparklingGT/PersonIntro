@@ -4,6 +4,7 @@
 
 This is my homework (I designed it), starts on 12/09/16 (dd/mm/yy).
 It took me <i>LITERALLY</i> 3 hours to upload the project, it seems GitHub Desktop doesn't go along w/ me....
+Now it is 3 o'clock in the morning, <strong>GREAT!</strong>  I've decided to uninstall GitHub Desktop since I am quite happy w/ Git Bash.
 
 At the time of writing, the project is in its Alpha stage.
 
