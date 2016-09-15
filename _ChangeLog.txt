@@ -51,3 +51,5 @@ Day 4 (15/09/16) :
 7) Long tap on the photo will bring up your image viewr app w/ the pic on it
 
 8) Toolbar added.
+
+9) Change the behavior of datepicker.

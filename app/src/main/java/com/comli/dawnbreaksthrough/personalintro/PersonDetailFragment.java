@@ -30,7 +30,6 @@ import java.io.File;
 import java.util.Date;
 import java.util.UUID;
 
-
 /**
  * A simple {@link Fragment} subclass.
  */
@@ -38,6 +37,7 @@ public class PersonDetailFragment extends Fragment implements
         View.OnClickListener, View.OnLongClickListener,
         View.OnFocusChangeListener
 {
+    // Testing!!!!
     private static final String TAG = "sparkling";
     private static final String STRING_ARGS_PERSON_ID = "PersonID";
     private static final String STRING_CLIPBOARD_NAME = "CopyName";
