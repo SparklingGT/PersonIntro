@@ -8,4 +8,4 @@ Now it is 3 o'clock in the morning, <strong>GREAT!</strong>  I've decided to uni
 <br>
 At the time of writing, the project is in its Alpha stage.
 
-<strong>For more info, please see _Goal.txt, _Journey.txt, _ChangeLog.txt </strong>
+<strong>For more info, please read _Goal.txt, _Journey.txt, _ChangeLog.txt </strong>
