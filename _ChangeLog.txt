@@ -1,0 +1,53 @@
+Day 1 (12/09/16) :
+
+1) Basic Layout
+
+2) Basic Structure
+
+Day 2 (13/09/16) :
+
+1) Add 3 different listener to Edittext.
+   Focus -> Copy to clipboard
+   Longclick -> Edit / Open picker dialog (the latter one is not done yet)
+   Click -> TBD
+
+2) Edittext would not gain focus when window (the card) first got opened.
+
+3) When finishing editing Edittext you can touch anywhere on screen to exit editing, 
+   and Edittext would lose focus accordingly.
+
+4) Tap the "BACK" button on device while editing Edittext would cause it to lose focus.
+
+
+Day 3 (14/09/16) :
+
+1) Add a gender dialog to pick the gender that they identify themselves as 
+   (not what you think what gender they are). This dialog has been themed.
+
+2) Add a datePicker dialog to select one's birthday, you can only select days from
+   01/01/1900 to 31/12/2025, and fix weird glitches on my Note 5 by setting scaleX attribute
+   (not a good solution I think).
+
+3) Add a timePicker dialog to select time, I feel like it is actually a bit unneccesary, but figure this
+   might actually make a good practice anyway.
+
+4) SQLite databases comes to play.
+
+
+Day 4 (15/09/16) :
+
+1) Add save system.
+
+2) Adding cards is now possible.
+
+3) Deleting cards is now possible.
+
+4) Taking picture and save it is now possible.
+
+5) Add images cache system.
+
+6) Tap on the photo will bring up a enlarged photo.
+
+7) Long tap on the photo will bring up your image viewr app w/ the pic on it
+
+8) Toolbar added.

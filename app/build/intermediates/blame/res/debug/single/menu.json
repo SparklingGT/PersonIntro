@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_person_detail_fragment.xml",
+        "source": "C:\\Android\\PersonIntro\\app\\src\\main\\res\\menu\\menu_person_detail_fragment.xml"
+    },
+    {
+        "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_person_list_fragment.xml",
+        "source": "C:\\Android\\PersonIntro\\app\\src\\main\\res\\menu\\menu_person_list_fragment.xml"
+    }
+]

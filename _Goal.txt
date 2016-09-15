@@ -1,0 +1,40 @@
+Homework: Person Card
+
+After seeing TheBigNerdRanch 2e (android) finishes its 2nd app, 
+I feel the needs to put all the things that I learned into practice. 
+
+I myself set up this project (aka homework) for myself to practice,
+the project has to contain name, gender, birthday (down to minutes),
+intro of that person, the pic of that person. 
+
+This would be my SECOND app, will definitely work on the layout WAY more than my FIRST app.
+
+The Project starts on 12/09/16 (dd/mm/yy).
+Due on 18/09/16 (dd/mm/yy).
+
+Requirement:
+
+1) RecyclerView
+2) ViewPager
+3) SQLite Database
+4) Bitmap
+5) URI
+6) Implicit Intent
+7) Toolbar
+8) SharedPreference
+9) Dialog
+10) Side Note
+
+Optional:
+
+1) CardView
+2) ViewPager w/ tabs
+3) Animation
+4) Sort Funtionality
+5) Swipeable & draggable RecyclerView
+6) Use grid layout instead of linear layout
+7) Cache the photos, so that it loads faster.
+8) New Section : Relationship w/ others, choose unit either from contact or from other cards.
+9) Traditional Chinese Translation.
+10) Additional info such as : Country, Religion, Interests, and so on.
+11) Code Coverage ?!

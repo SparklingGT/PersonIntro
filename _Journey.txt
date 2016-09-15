@@ -1,0 +1,18 @@
+Day 1:
+1) Mainly work on layout.
+2) Finish some basic stuff like RecyclerView, CardView, ViewPager.
+3) Build a over simplified structure (template).
+
+Day 2:
+1) Some layout improvements.
+2) Work on the behaviors of EditView.
+
+Day 3:
+1) Add DatePicker, TimePicker, GenderPicker Dialog.
+2) Add SQLite databases.
+
+Day 4:
+1) Save system added.
+2) Toolbar added.
+3) Adding/deleting cards are possible now.
+4) Photo part has been taken care of.

@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">PersonalIntro</string>
+    <string name="image_description">Selfie</string>
+    <string name="camera_action_description">Click to take a pic</string>
+    <string name="person_detail_title">Detail</string>
+    <string name="person_name">Name : </string>
+    <string name="person_gender">Gender : </string>
+    <string name="gender_male">Male</string>
+    <string name="gender_female">Female</string>
+    <string name="gender_other">Other</string>
+    <string name="person_birth">Birthday : </string>
+    <string name="person_intro_title">Introduction</string>
+    <string name="person_associates">Associate With</string>
+    <string name="person_note_title">Note</string>
+    <string name="hint">Long Click</string>
+    <string name="hint_intro">Long tap to enter the intro</string>
+    <string name="hint_note">Tap here to enter side note</string>
+    <string name="hint_association">Who associates with this person?</string>
+    <string name="time_picker_back">BACK</string>
+    <string name="dialog_title_gender">Gender</string>
+    <string name="dialog_title_delete">Delete This Person</string>
+    <string name="dialog_content_delete">Remove %1$s from your list ?
+        \n(There is no going back &lt;Enhancement&gt;)</string>
+    <string name="all_error">Error!</string>
+    <string name="menu_delete_person">Delete</string>
+    <string name="err_no_pic_dir">Fail to find directory that stores pictures.</string>
+    <string name="err_no_camera_app">Fail to find a camera app.</string>
+    <string name="err_no_image_viewer_app">Fail to find an image viewer.</string>
+
+    <string-array name="gender_list">
+        <item>Female</item>
+        <item>Other</item>
+        <item>Male</item>
+    </string-array>
+
+</resources>

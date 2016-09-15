@@ -1,0 +1,165 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:id="@+id/person_detail_root"
+              android:clickable="true"
+              android:focusableInTouchMode="true"
+              android:orientation="vertical"
+              tools:context="com.comli.dawnbreaksthrough.personalintro.PersonDetailFragment">
+
+
+<RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="16dp">
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/photo_part"
+            android:layout_marginEnd="4dp"
+            android:orientation="vertical">
+
+        <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="16dp"
+                android:cropToPadding="true"
+                android:id="@+id/image_view_person_photo"
+                android:scaleType="centerInside"
+                android:clickable="true"
+                android:contentDescription="@string/image_description"
+                android:background="@android:color/darker_gray"/>
+
+        <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="4dp"
+                android:id="@+id/button_camera_action"
+                android:contentDescription="@string/camera_action_description"
+                android:src="@drawable/ic_camera"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/detail_part"
+            android:layout_toEndOf="@id/photo_part"
+            android:orientation="vertical">
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="?android:listSeparatorTextViewStyle"
+                android:text="@string/person_detail_title"/>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:orientation="horizontal">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/person_name"/>
+
+            <EditText
+                    android:gravity="center"
+                    android:paddingTop="4dp"
+                    android:hint="@string/hint"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/edit_view_person_name"
+                    android:layout_gravity="center_horizontal|center_vertical"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:orientation="horizontal">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/person_gender"/>
+
+            <EditText
+                    android:gravity="center"
+                    android:paddingTop="4dp"
+                    android:hint="@string/hint"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/edit_view_person_gender"
+                    android:layout_gravity="center_horizontal|center_vertical"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:orientation="horizontal">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/person_birth"/>
+
+            <EditText
+                    android:gravity="center"
+                    android:paddingTop="4dp"
+                    android:hint="@string/hint"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/edit_view_person_birth"
+                    android:layout_gravity="center_horizontal|center_vertical"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:id="@+id/person_intro_expand"
+            android:text="@string/person_intro_title"
+            android:layout_marginTop="8dp"
+            style="?android:listSeparatorTextViewStyle"/>
+
+    <EditText
+            android:gravity="center"
+            android:paddingTop="4dp"
+            android:id="@+id/edit_view_person_intro"
+            android:hint="@string/hint_intro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"/>
+
+
+    <TextView
+            android:layout_width="match_parent"
+            android:clickable="true"
+            android:id="@+id/person_relationship_expand"
+            android:layout_height="wrap_content"
+            android:text="@string/person_associates"
+            style="?android:listSeparatorTextViewStyle"/>
+</LinearLayout>
+
+
