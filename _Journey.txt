@@ -16,3 +16,7 @@ Day 4:
 2) Toolbar added.
 3) Adding/deleting cards are possible now.
 4) Photo part has been taken care of.
+
+Day 5:
+1) Popup Photo now supports zooming.
+2) UI reworked.

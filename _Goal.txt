@@ -1,3 +1,9 @@
+************************
+*                     ***  
+* Updated on 16/09/16 ****
+*                     *** 
+************************
+
 Homework: Person Card
 
 After seeing TheBigNerdRanch 2e (android) finishes its 2nd app, 
@@ -14,27 +20,27 @@ Due on 18/09/16 (dd/mm/yy).
 
 Requirement:
 
-1) RecyclerView
-2) ViewPager
-3) SQLite Database
-4) Bitmap
-5) URI
-6) Implicit Intent
-7) Toolbar
-8) SharedPreference
-9) Dialog
-10) Side Note
+1) RecyclerView (Done)
+2) ViewPager (Done)
+3) SQLite Database (Done)
+4) Bitmap (Done)
+5) URI (Done)
+6) Implicit Intent (Done)
+7) Toolbar (Done)
+8) SharedPreference (In progress)
+9) Dialog (Done)
+10) Side Note (Not yet)
 
 Optional:
 
-1) CardView
-2) ViewPager w/ tabs
-3) Animation
-4) Sort Funtionality
-5) Swipeable & draggable RecyclerView
-6) Use grid layout instead of linear layout
-7) Cache the photos, so that it loads faster.
-8) New Section : Relationship w/ others, choose unit either from contact or from other cards.
-9) Traditional Chinese Translation.
-10) Additional info such as : Country, Religion, Interests, and so on.
-11) Code Coverage ?!
+1) CardView (Done)
+2) ViewPager w/ tabs (Not yet)
+3) Animation (Just a little)
+4) Sort Funtionality (Not yet)
+5) Swipeable & draggable RecyclerView (Not yet)
+6) Use grid layout instead of linear layout (Not yet)
+7) Cache the photos, so that it loads faster. (Done)
+8) New Section : Relationship w/ others, choose unit either from contact or from other cards. (Not yet)
+9) Traditional Chinese Translation. (Not yet)
+10) Additional info such as : Country, Religion, Interests, and so on. (Not yet)
+11) Code Coverage ?! (Not yet)
