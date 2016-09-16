@@ -8,7 +8,6 @@
               android:orientation="vertical"
               tools:context="com.comli.dawnbreaksthrough.personalintro.PersonDetailFragment">
 
-
 <RelativeLayout
              android:layout_width="match_parent"
              android:layout_height="wrap_content"

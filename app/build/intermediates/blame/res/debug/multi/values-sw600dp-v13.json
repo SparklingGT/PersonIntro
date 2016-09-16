@@ -330,8 +330,46 @@
                     "startLine": 19,
                     "startColumn": 4,
                     "startOffset": 1212,
+                    "endColumn": 63,
+                    "endOffset": 1271
+                },
+                "from": {
+                    "file": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\5.6.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 63,
+                        "endOffset": 114
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1276,
+                    "endColumn": 54,
+                    "endOffset": 1326
+                },
+                "from": {
+                    "file": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialize\\1.0.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 54,
+                        "endOffset": 105
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1331,
                     "endColumn": 62,
-                    "endOffset": 1270
+                    "endOffset": 1389
                 },
                 "from": {
                     "file": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
@@ -346,12 +384,12 @@
             },
             {
                 "to": {
-                    "startLine": 20,
+                    "startLine": 22,
                     "startColumn": 4,
-                    "startOffset": 1275,
-                    "endLine": 23,
+                    "startOffset": 1394,
+                    "endLine": 25,
                     "endColumn": 12,
-                    "endOffset": 1452
+                    "endOffset": 1571
                 },
                 "from": {
                     "file": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",

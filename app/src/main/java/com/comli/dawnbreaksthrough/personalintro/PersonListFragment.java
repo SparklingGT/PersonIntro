@@ -99,7 +99,6 @@ public class PersonListFragment extends Fragment
                 int profileSizeInDip = 80;
                 //// TODO: 9/16/2016 I should make a preference file, and access that size in one place
                 //// TODO: 9/16/2016  Two places that use the same setting, here and the pic inside 
-                //// TODO: 9/16/2016 Or maybe I should give more freedom to the user 
                 int profileSizeInPixel = PictureUtils.dipToPixel(profileSizeInDip, getActivity());
                 profile.getLayoutParams().width = profileSizeInPixel;
                 profile.getLayoutParams().height = profileSizeInPixel;

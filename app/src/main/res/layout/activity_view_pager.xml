@@ -1,10 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.v4.view.ViewPager
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
-        android:id="@+id/view_pager"
+
+<LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context="com.comli.dawnbreaksthrough.personalintro.ViewPagerActivity">
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context=".ViewPagerActivity">
 
-</android.support.v4.view.ViewPager>
+    <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_view_pager"
+            android:layout_width="match_parent"
+            app:theme="@style/MaterialBaseBaseTheme"
+            app:popupTheme="@style/MaterialTheme.Light"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/Primary"/>
+
+    <android.support.v4.view.ViewPager
+            android:id="@+id/view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+</LinearLayout>
+
