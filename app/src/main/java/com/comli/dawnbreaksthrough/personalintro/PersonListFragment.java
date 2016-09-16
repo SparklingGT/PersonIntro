@@ -2,14 +2,17 @@ package com.comli.dawnbreaksthrough.personalintro;
 
 
 import android.content.Intent;
+import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.*;
-import android.widget.CheckBox;
+import android.widget.ImageView;
 import android.widget.TextView;
+import com.comli.dawnbreaksthrough.personalintro.Elements.Thumbnail;
 
+import java.io.File;
 import java.util.List;
 
 
@@ -80,19 +83,31 @@ public class PersonListFragment extends Fragment
     {
         Person mPerson;
         TextView name;
-        CheckBox fav;
+        ImageView profile;
 
         public ViewHolderPerson(View itemView) {
             super(itemView);
             name = (TextView) itemView.findViewById(R.id.text_view_person_name_card);
-            fav = (CheckBox) itemView.findViewById(R.id.checkbox_person_fav_card);
+            profile = (ImageView) itemView.findViewById(R.id.circle_image_profile);
             itemView.setOnClickListener(this);
             itemView.setOnLongClickListener(this);
         }
 
         public void bindPerson(Person person) {
+            File profileCache = PersonLab.get(getActivity()).getThumbnailFile(person, Thumbnail.Size.SMALL);
+            if (profileCache.exists()) {
+                int profileSizeInDip = 80;
+                //// TODO: 9/16/2016 I should make a preference file, and access that size in one place
+                //// TODO: 9/16/2016  Two places that use the same setting, here and the pic inside 
+                //// TODO: 9/16/2016 Or maybe I should give more freedom to the user 
+                int profileSizeInPixel = PictureUtils.dipToPixel(profileSizeInDip, getActivity());
+                profile.getLayoutParams().width = profileSizeInPixel;
+                profile.getLayoutParams().height = profileSizeInPixel;
+                profile.setImageBitmap(BitmapFactory.decodeFile(profileCache.getPath()));
+            } else {
+                profile.setImageDrawable(null);
+            }
             name.setText(person.getName());
-            fav.setChecked(person.isFav());
             mPerson = person;
         }
 

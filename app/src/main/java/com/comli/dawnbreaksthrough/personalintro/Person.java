@@ -17,7 +17,6 @@ public class Person
     private Date mDate;
     private UUID mUUID;
     private int mGender;
-    private boolean mIsFav;
 
     Person(UUID uuid) {
         mUUID = uuid;
@@ -70,14 +69,6 @@ public class Person
 
     public void setGender(int gender) {
         mGender = gender;
-    }
-
-    public boolean isFav() {
-        return mIsFav;
-    }
-
-    public void setFav(boolean fav) {
-        mIsFav = fav;
     }
 
     public String getThumbnailFilename(int size) {

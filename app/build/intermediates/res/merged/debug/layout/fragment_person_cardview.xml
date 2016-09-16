@@ -10,11 +10,14 @@
         app:cardElevation="4dp"
         tools:context="com.comli.dawnbreaksthrough.personalintro.PersonListFragment">
 
-    <CheckBox
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical"
-            android:id="@+id/checkbox_person_fav_card"/>
+    <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:padding="8dp"
+            android:id="@+id/circle_image_profile"
+            app:civ_border_width="1.5dp"
+            app:civ_border_color="#555"
+            android:layout_gravity="center_vertical"/>
 
     <TextView
             android:layout_width="wrap_content"
