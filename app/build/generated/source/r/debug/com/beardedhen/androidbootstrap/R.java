@@ -35,25 +35,25 @@ public final class R {
 		public static final int typicon = 0x7f010032;
 	}
 	public static final class color {
-		public static final int bootstrap_alert_cross_default = 0x7f0c000d;
-		public static final int bootstrap_brand_danger = 0x7f0c000e;
-		public static final int bootstrap_brand_info = 0x7f0c000f;
-		public static final int bootstrap_brand_primary = 0x7f0c0010;
-		public static final int bootstrap_brand_secondary_border = 0x7f0c0011;
-		public static final int bootstrap_brand_secondary_fill = 0x7f0c0012;
-		public static final int bootstrap_brand_secondary_text = 0x7f0c0013;
-		public static final int bootstrap_brand_success = 0x7f0c0014;
-		public static final int bootstrap_brand_warning = 0x7f0c0015;
-		public static final int bootstrap_dropdown_divider = 0x7f0c0016;
-		public static final int bootstrap_edittext_disabled = 0x7f0c0017;
-		public static final int bootstrap_gray = 0x7f0c0018;
-		public static final int bootstrap_gray_dark = 0x7f0c0019;
-		public static final int bootstrap_gray_light = 0x7f0c001a;
-		public static final int bootstrap_gray_lighter = 0x7f0c001b;
-		public static final int bootstrap_gray_lightest = 0x7f0c001c;
-		public static final int bootstrap_thumbnail_background = 0x7f0c001d;
-		public static final int bootstrap_well_background = 0x7f0c001e;
-		public static final int bootstrap_well_border_color = 0x7f0c001f;
+		public static final int bootstrap_alert_cross_default = 0x7f0c000e;
+		public static final int bootstrap_brand_danger = 0x7f0c000f;
+		public static final int bootstrap_brand_info = 0x7f0c0010;
+		public static final int bootstrap_brand_primary = 0x7f0c0011;
+		public static final int bootstrap_brand_secondary_border = 0x7f0c0012;
+		public static final int bootstrap_brand_secondary_fill = 0x7f0c0013;
+		public static final int bootstrap_brand_secondary_text = 0x7f0c0014;
+		public static final int bootstrap_brand_success = 0x7f0c0015;
+		public static final int bootstrap_brand_warning = 0x7f0c0016;
+		public static final int bootstrap_dropdown_divider = 0x7f0c0017;
+		public static final int bootstrap_edittext_disabled = 0x7f0c0018;
+		public static final int bootstrap_gray = 0x7f0c0019;
+		public static final int bootstrap_gray_dark = 0x7f0c001a;
+		public static final int bootstrap_gray_light = 0x7f0c001b;
+		public static final int bootstrap_gray_lighter = 0x7f0c001c;
+		public static final int bootstrap_gray_lightest = 0x7f0c001d;
+		public static final int bootstrap_thumbnail_background = 0x7f0c001e;
+		public static final int bootstrap_well_background = 0x7f0c001f;
+		public static final int bootstrap_well_border_color = 0x7f0c0020;
 	}
 	public static final class dimen {
 		public static final int bootstrap_alert_default_font_size = 0x7f070055;

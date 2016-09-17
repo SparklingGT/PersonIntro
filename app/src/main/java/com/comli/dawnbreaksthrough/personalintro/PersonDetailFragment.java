@@ -15,14 +15,15 @@ import android.os.Bundle;
 import android.provider.MediaStore;
 import android.support.design.widget.Snackbar;
 import android.support.v4.app.Fragment;
+import android.support.v4.content.ContextCompat;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.text.format.DateFormat;
 import android.text.method.KeyListener;
+import android.util.Log;
 import android.view.*;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
-import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 import com.comli.dawnbreaksthrough.personalintro.Elements.Age;
@@ -73,7 +74,8 @@ public class PersonDetailFragment extends Fragment implements
     private EditText mBirth;
     private EditText mIntro;
     private ImageView mPhoto;
-    private ImageButton mCamera;
+    private TextView mCamera;
+//    private ImageButton mCamera;
     private Person mPerson;
     private KeyListener mKeyListener;
     private PackageManager mPackageManager;
@@ -108,6 +110,7 @@ public class PersonDetailFragment extends Fragment implements
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+
         View view = inflater.inflate(R.layout.fragment_person_detail, container, false);
         UUID personId = (UUID) getArguments().getSerializable(STRING_ARGS_PERSON_ID);
         mPerson = PersonLab.get(getActivity()).getPerson(personId);
@@ -119,7 +122,8 @@ public class PersonDetailFragment extends Fragment implements
         mBirth = (EditText) view.findViewById(R.id.edit_view_person_birth);
         mIntro = (EditText) view.findViewById(R.id.edit_view_person_intro);
         mPhoto = (ImageView) view.findViewById(R.id.image_view_person_photo);
-        mCamera = (ImageButton) view.findViewById(R.id.button_camera_action);
+//        mCamera = (ImageButton) view.findViewById(R.id.button_camera_action);
+        mCamera = (TextView) view.findViewById(R.id.button_camera_action);
 
 
         mIntroVisible = false;
@@ -231,13 +235,12 @@ public class PersonDetailFragment extends Fragment implements
 
                 int totalHeight = activityRootView.getRootView().getHeight();
                 int keyboardHeight = totalHeight - rect.bottom;
+//                Log.i(TAG, "totalHeight = " + totalHeight);
+//                Log.i(TAG, "keyboardHeight = " + keyboardHeight);
                 if (totalHeight < keyboardHeight / 0.18f) {
                     //// TODO: 9/13/2016 let user change the ratio (default is 0.18
                 } else {
-                    mName.setKeyListener(null);
-                    mIntro.setKeyListener(null);
-                    mName.clearFocus();
-                    mIntro.clearFocus();
+                    clearFocus();
                     PersonLab.get(getActivity()).updateDatabases(mPerson);
                 }
             }
@@ -246,12 +249,21 @@ public class PersonDetailFragment extends Fragment implements
         setHasOptionsMenu(true);
         updatePhoto();
 
+        Log.i(TAG, "onCreateView");
         return view;
     }
 
     @Override
+    public void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        Log.i(TAG, "onSaveInstanceState");
+    }
+
+    @Override
     public void onPause() {
+        Log.i(TAG, "onPause");
         super.onPause();
+        clearFocus();
         PersonLab.get(getActivity()).updateDatabases(mPerson);
     }
 
@@ -364,6 +376,7 @@ public class PersonDetailFragment extends Fragment implements
 
     @Override
     public void onFocusChange(View view, boolean b) {
+        Log.i(TAG, "onFocusChange");
         switch (view.getId()) {
             case R.id.edit_view_person_name:
                 if (b) {
@@ -556,6 +569,15 @@ public class PersonDetailFragment extends Fragment implements
         dateDialog.show(getFragmentManager(), STRING_DATE_DIALOG_TAG);
     }
 
+    private void clearFocus() {
+        mName.setKeyListener(null);
+        mName.clearFocus();
+        mIntro.setKeyListener(null);
+        mIntro.clearFocus();
+    }
+
+
+
     private void updatePhoto() {
         //// TODO: 9/15/2016  Let User decide the size
         //// TODO: 9/15/2016  SharedPreferences
@@ -563,6 +585,7 @@ public class PersonDetailFragment extends Fragment implements
         int thumbnailSizeInPixel = PictureUtils.dipToPixel(thumbnailSizeInDP, getActivity());
         mPhoto.getLayoutParams().height = thumbnailSizeInPixel;
         mPhoto.getLayoutParams().width = thumbnailSizeInPixel;
+        mPhoto.setBackgroundColor(ContextCompat.getColor(getActivity(), R.color.background));
 
         File thumbnailCache =
                 PersonLab.get(getActivity()).getThumbnailFile(mPerson, Thumbnail.Size.SMALL);

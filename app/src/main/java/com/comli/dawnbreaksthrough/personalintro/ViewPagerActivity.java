@@ -12,6 +12,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Window;
 import android.view.WindowManager;
+import com.beardedhen.androidbootstrap.TypefaceProvider;
 
 import java.util.List;
 import java.util.UUID;
@@ -32,6 +33,7 @@ public class ViewPagerActivity extends AppCompatActivity
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        TypefaceProvider.registerDefaultIconSets();
         setContentView(R.layout.activity_view_pager);
 
         Window window = getWindow();

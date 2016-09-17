@@ -490,6 +490,7 @@ MERGED from [com.android.support:support-core-utils:24.2.1] C:\Android\PersonInt
 MERGED from [com.android.support:support-compat:24.2.1] C:\Android\PersonIntro\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\AndroidManifest.xml:21:5-23:58
 MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Android\PersonIntro\app\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\2.1.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.mikepenz:google-material-typeface:2.2.0.3.original] C:\Android\PersonIntro\app\build\intermediates\exploded-aar\com.mikepenz\google-material-typeface\2.2.0.3.original\AndroidManifest.xml:23:5-25:41
+MERGED from [com.makeramen:roundedimageview:2.2.1] C:\Android\PersonIntro\app\build\intermediates\exploded-aar\com.makeramen\roundedimageview\2.2.1\AndroidManifest.xml:7:5-43
 MERGED from [com.mikepenz:materialdrawer:5.6.0] C:\Android\PersonIntro\app\build\intermediates\exploded-aar\com.mikepenz\materialdrawer\5.6.0\AndroidManifest.xml:8:5-10:41
 MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Android\PersonIntro\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:support-v4:24.2.1] C:\Android\PersonIntro\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\AndroidManifest.xml:21:5-23:54
