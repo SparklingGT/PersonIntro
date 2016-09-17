@@ -3,9 +3,18 @@
 <h1>高中桃園教育局審查資料之一</h1>
 
 This is my homework (I designed it), starts on 12/09/16 (dd/mm/yy). <br>
-It took me <i>LITERALLY</i> 3 hours to upload the project, it seems GitHub Desktop doesn't go along w/ me.... <br>
-Now it is 3 o'clock in the morning, <strong>GREAT!</strong>  I've decided to uninstall GitHub Desktop since I am quite happy w/ Git Bash.
-<br>
-At the time of writing, the project is <strong>WAY</strong> before its Alpha stage.
+Goal is not only to make a copy of <i>criminalIntent</i> but also add some new stuff in. <br>
+At the time of writing, the project does not yet reach its <em>alpha</em>> stage. <br>
 
-<strong>For more info, please read _Goal.txt, _Journey.txt, _ChangeLog.txt </strong>
+<hr>
+
+<h4>Terms Explanation :</h4>
+
+<ul>
+	<li>CriminalIntent : The 2 <sup>nd</sup> app from the book <cite>Android Programming: The Big Nerd Ranch Guide (2nd Edition).</cite></li>
+	<li>Alpha : <em>40%</em> completion.</li>
+</ul>
+
+<hr>
+<br>
+<strong> For more info, please read _GOAL.txt, _JOURNEY.txt, _CHANGELOG.txt </strong>
