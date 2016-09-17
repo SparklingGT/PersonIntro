@@ -1,49 +1,59 @@
 Day 1 (12/09/16) :
 
-1) Basic Layout
-2) Basic Structure
+1) [ADD] Basic Layout
+2) [ADD] Basic Structure
 
 Day 2 (13/09/16) :
 
-1) Add 3 different listener to Edittext.
-   Focus -> Copy to clipboard
-   Longclick -> Edit / Open picker dialog (the latter one is not done yet)
-   Click -> TBD
-2) Edittext would not gain focus when window (the card) first got opened.
-3) When finishing editing Edittext you can touch anywhere on screen to exit editing, 
-   and Edittext would lose focus accordingly.
-4) Tap the "BACK" button on device while editing Edittext would cause it to lose focus.
+1) [ADD] Click on Edittext now copy its content to clipboard.
+2) [ADD] Long click on Edittext now allow you to edit it.   
+3) [CHANGE] Edittext would not gain focus when window (the card) first got opened.
+4) [CHANGE] Tap anywhere on the screen would cause Edittext to lose its focussed state.
+5) [CHANGE] Tap the "BACK" button on device while editing Edittext would cause it to lose focus.
 
 
 Day 3 (14/09/16) :
 
-1) Add a gender dialog to pick the gender that they identify themselves as 
-   (not what you think what gender they are). This dialog has been themed.
-2) Add a datePicker dialog to select one's birthday, you can only select days from
-   01/01/1900 to 31/12/2025, and fix weird glitches on my Note 5 by setting scaleX attribute
-   (not a good solution I think).
-3) Add a timePicker dialog to select time, I feel like it is actually a bit unneccesary, but figure this
-   might actually make a good practice anyway.
-4) SQLite databases comes to play.
+1) [ADD] Add a gender dialog to pick the gender.
+2) [ADD] Add a datePicker dialog to select one's birthday.
+3) [ADD] Add a timePicker dialog right after datePicker to select time.
+4) [ADD] SQLite databases comes to play.
+5) [UI] Theme the gender dialog.
+6) [FIX] Fix a issue that causes datePicker doesn't show as expected.
+
 
 
 Day 4 (15/09/16) :
 
-1) Add save system.
-2) Adding cards is now possible.
-3) Deleting cards is now possible.
-4) Taking picture and save it is now possible.
-5) Add images cache system.
-6) Tap on the photo will bring up a enlarged photo.
-7) Long tap on the photo will bring up your image viewr app w/ the pic on it
-8) Toolbar added.
-9) Change the behavior of datepicker.
+1) [ADD] Add save system.
+2) [ADD] Adding cards is now possible.
+3) [ADD] Deleting cards is now possible.
+4) [ADD] Taking picture and save it is now possible.
+5) [ADD] Add images cache system.
+6) [ADD] Tap on the photo will bring up a enlarged photo.
+7) [ADD] Long tap on the photo will bring up your image viewr app w/ the pic on it
+8) [ADD] Toolbar added.
+9) [CHANGE/FIX] Change the behavior of datepicker.
 
 
 Day 5 (16/09/16) :
 
-1) You can now zoom in the popup enlarged photo.
-2) Toolbar reworked, now it changes color when switching activity.
-3) Add a sliding drawer that has 5 items with icon in it.
-4) Now you can see profiles directly from the home list.
-5) Min SDK is now 21, might change back to 19 in the future.
+1) [ADD] Add a sliding drawer that has 5 items with icon in it.
+2) [ADD] You can now zoom in the enlarged popup photo.
+3) [UI] Toolbar reworked, now it changes color when switching activity.
+4) [UI] Now you can see profiles directly from the home list.
+5) [CHANGE] Min SDK is now 21, might revert back to 19 in the future.
+
+
+Day 6 (17/09/16) :
+
+1) [ADD] Preferences window is now added.
+2) [ADD] Toolbar in preferences window.
+3) [ADD] Some items' behavior in the sliding drawer.
+4) [UI] Enlarged popup photo now has rounded corners.
+5) [UI] Enlarged popup photo is now based on a transparent fragment.
+6) [UI] Redesign the look&feel of camera action button.
+7) [UI] Now the small thumbnail in person cards has rounded corners + border.
+8) [UI] The sliding drawer is now changing color when switching activity (window). 
+9) [FIX] Fix a critical bug that causes the app to crash when rotating the screen.
+ 

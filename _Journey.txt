@@ -20,3 +20,8 @@ Day 4:
 Day 5:
 1) Popup Photo now supports zooming.
 2) UI reworked.
+
+Day 6:
+1) UI improvement.
+2) Implement the behavior of the sliding drawer.
+3) Bug fixes.
