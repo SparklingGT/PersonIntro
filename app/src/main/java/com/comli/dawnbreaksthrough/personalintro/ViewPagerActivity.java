@@ -42,7 +42,7 @@ public class ViewPagerActivity extends AppCompatActivity
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar_view_pager);
         setSupportActionBar(toolbar);
-        UIUtils.setupDrawer(toolbar, R.id.drawer_layout_view_pager, this);
+        LayoutUtils.prepareDrawer(toolbar, R.id.drawer_layout_view_pager, this);
 
         mViewPager = (ViewPager) findViewById(R.id.view_pager);
         final FragmentManager fragmentManager = getSupportFragmentManager();
@@ -53,7 +53,7 @@ public class ViewPagerActivity extends AppCompatActivity
         {
             @Override
             public Fragment getItem(int position) {
-                Person person = mPersonList.get(position); //// TODO: 9/12/2016  not quite get this.
+                Person person = mPersonList.get(position);
                 return PersonDetailFragment.newInstance(person.getUUID());
             }
 
@@ -70,5 +70,11 @@ public class ViewPagerActivity extends AppCompatActivity
                 break;
             }
         }
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        LayoutUtils.defaultDrawer(LayoutUtils.INT_FROM_CARD);
     }
 }

@@ -1,16 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="Primary">#50a300</color>
-    <color name="PrimaryDark">#489200</color>
     <color name="colorPrimary">#B20000</color>
     <color name="colorPrimaryDark">#8E0000</color>
+    <color name="Primary">#50a300</color>
+    <color name="PrimaryDark">#489200</color>
+    <color name="prefsPrimary">#8459ab</color>
+    <color name="prefsPrimaryDark">#663096</color>
+    
     <color name="colorAccent">#FF4081</color>
+
     <color name="drawer_selected_red">#70B20000</color>
     <color name="drawer_selected_green">#7050a300</color>
+    <color name="drawer_selected_purple">#708459ab</color>
     <color name="drawer_background">#44000000</color>
     <color name="material_drawer_divider">#33FFFFFF</color>
     <color name="icon">#88cccccc</color>
     <color name="item_text_drawer">#eeeeee</color>
+
     <color name="drawer_toggle">#e5e5e5</color>
+
     <color name="background">#fafafa</color>
 </resources>

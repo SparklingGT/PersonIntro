@@ -19,8 +19,11 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".ViewPagerActivity"
-                  android:parentActivityName=".StartActivity">
+        <activity
+                android:name=".ViewPagerActivity"
+                android:parentActivityName=".StartActivity">
+        </activity>
+        <activity android:name=".SettingActivity">
         </activity>
     </application>
 

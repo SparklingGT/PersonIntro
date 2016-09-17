@@ -30,6 +30,8 @@
             android:name="com.comli.dawnbreaksthrough.personalintro.ViewPagerActivity"
             android:parentActivityName="com.comli.dawnbreaksthrough.personalintro.StartActivity" >
         </activity>
+        <activity android:name="com.comli.dawnbreaksthrough.personalintro.SettingActivity" >
+        </activity>
     </application>
 
 </manifest>
