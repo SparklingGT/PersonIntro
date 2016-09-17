@@ -2139,7 +2139,8 @@
     <color name="dim_foreground_material_dark">#ffbebebe</color>
     <color name="dim_foreground_material_light">#ff323232</color>
     <color name="drawer_background">#44000000</color>
-    <color name="drawer_selected">#70B20000</color>
+    <color name="drawer_selected_green">#7050a300</color>
+    <color name="drawer_selected_red">#70B20000</color>
     <color name="drawer_toggle">#e5e5e5</color>
     <color name="foreground_material_dark">@android:color/white</color>
     <color name="foreground_material_light">@android:color/black</color>

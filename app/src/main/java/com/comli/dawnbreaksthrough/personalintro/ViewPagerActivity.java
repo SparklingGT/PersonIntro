@@ -42,6 +42,7 @@ public class ViewPagerActivity extends AppCompatActivity
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar_view_pager);
         setSupportActionBar(toolbar);
+        UIUtils.setupDrawer(toolbar, R.id.drawer_layout_view_pager, this);
 
         mViewPager = (ViewPager) findViewById(R.id.view_pager);
         final FragmentManager fragmentManager = getSupportFragmentManager();

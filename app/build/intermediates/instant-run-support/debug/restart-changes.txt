@@ -1,0 +1,6 @@
+CHANGED,C:\Android\PersonIntro\app\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\comli\dawnbreaksthrough\personalintro\UIUtils$3.class
+CHANGED,C:\Android\PersonIntro\app\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\comli\dawnbreaksthrough\personalintro\UIUtils$5.class
+CHANGED,C:\Android\PersonIntro\app\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\comli\dawnbreaksthrough\personalintro\UIUtils.class
+CHANGED,C:\Android\PersonIntro\app\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\comli\dawnbreaksthrough\personalintro\UIUtils$4.class
+CHANGED,C:\Android\PersonIntro\app\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\comli\dawnbreaksthrough\personalintro\UIUtils$1.class
+CHANGED,C:\Android\PersonIntro\app\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\comli\dawnbreaksthrough\personalintro\UIUtils$2.class

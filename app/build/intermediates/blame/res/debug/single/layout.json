@@ -32,12 +32,12 @@
         "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\5.6.0\\res\\layout\\material_drawer_compact_header.xml"
     },
     {
-        "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
-        "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_search_view.xml"
-    },
-    {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
         "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_search_view.xml"
     },
     {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_toggle.xml",
@@ -144,16 +144,16 @@
         "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\5.6.0\\res\\layout\\material_drawer_recycler_view.xml"
     },
     {
-        "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
-        "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\layout\\design_layout_tab_text.xml"
+        "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_mini.xml",
+        "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\5.6.0\\res\\layout\\material_drawer_item_mini.xml"
     },
     {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_custom.xml",
         "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.0.1\\res\\layout\\md_dialog_custom.xml"
     },
     {
-        "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_mini.xml",
-        "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\5.6.0\\res\\layout\\material_drawer_item_mini.xml"
+        "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
+        "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\layout\\design_layout_tab_text.xml"
     },
     {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_input_check.xml",

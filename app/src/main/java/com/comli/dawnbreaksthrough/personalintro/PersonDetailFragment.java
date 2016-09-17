@@ -585,7 +585,6 @@ public class PersonDetailFragment extends Fragment implements
         int thumbnailSizeInPixel = PictureUtils.dipToPixel(thumbnailSizeInDP, getActivity());
         mPhoto.getLayoutParams().height = thumbnailSizeInPixel;
         mPhoto.getLayoutParams().width = thumbnailSizeInPixel;
-        mPhoto.setBackgroundColor(ContextCompat.getColor(getActivity(), R.color.background));
 
         File thumbnailCache =
                 PersonLab.get(getActivity()).getThumbnailFile(mPerson, Thumbnail.Size.SMALL);
@@ -595,10 +594,12 @@ public class PersonDetailFragment extends Fragment implements
             } else {
                 Bitmap bitmap = PictureUtils.
                         getScaleBitmap(mPerson, thumbnailSizeInDP, Thumbnail.Size.SMALL, getActivity());
+                mPhoto.setBackgroundColor(ContextCompat.getColor(getActivity(), R.color.background));
                 mPhoto.setImageBitmap(bitmap);
             }
         } else {
             Bitmap bitmap = BitmapFactory.decodeFile(thumbnailCache.getPath());
+            mPhoto.setBackgroundColor(ContextCompat.getColor(getActivity(), R.color.background));
             mPhoto.setImageBitmap(bitmap);
         }
     }

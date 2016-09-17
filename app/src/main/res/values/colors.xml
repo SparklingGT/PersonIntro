@@ -5,8 +5,8 @@
     <color name="colorPrimary">#B20000</color>
     <color name="colorPrimaryDark">#8E0000</color>
     <color name="colorAccent">#FF4081</color>
-    <!--<color name="drawer_selected">#70426d19</color>-->
-    <color name="drawer_selected">#70B20000</color>
+    <color name="drawer_selected_red">#70B20000</color>
+    <color name="drawer_selected_green">#7050a300</color>
     <color name="drawer_background">#44000000</color>
     <color name="material_drawer_divider">#33FFFFFF</color>
     <color name="icon">#88cccccc</color>
