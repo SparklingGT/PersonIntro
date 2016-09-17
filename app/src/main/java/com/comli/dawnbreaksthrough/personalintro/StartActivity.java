@@ -86,11 +86,10 @@ public class StartActivity extends AppCompatActivity
         Fragment fragment =  fragmentManager.findFragmentById(R.id.fragment_container);
         if (fragment == null) {
             fragment = new PersonListFragment();
+            fragmentManager.beginTransaction()
+                    .add(R.id.fragment_container, fragment)
+                    .commit();
         }
-        fragmentManager.beginTransaction()
-                .add(R.id.fragment_container, fragment)
-                .commit();
-
-
+        
     }
 }

@@ -4,63 +4,25 @@
     api-level="23"
     density="560dpi"
     format="7"
-    timestamp="47133981714172" >
+    timestamp="2822947692288" >
 
     <task
         name="javac"
-        duration="331" />
+        duration="897" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="54" />
+        duration="40" />
     <task
         name="verifier"
-        duration="11" />
+        duration="3" />
 
     <artifact
-        location="C:\Android\PersonIntro\app\build\intermediates\res\resources-debug.ap_"
-        type="RESOURCES" />
-    <artifact
-        location="C:\Android\PersonIntro\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Android\PersonIntro\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Android\PersonIntro\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Android\PersonIntro\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_7\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Android\PersonIntro\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Android\PersonIntro\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Android\PersonIntro\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
-        type="DEX" />
+        location="C:\Android\PersonIntro\app\build\outputs\apk\app-debug.apk"
+        type="MAIN" />
 
-    <build timestamp="36831835299160" >
-        <artifact
-            location="C:\Android\PersonIntro\app\build\outputs\apk\app-debug.apk"
-            type="MAIN" />
-    </build>
-    <build timestamp="38831306188246" >
-        <artifact
-            location="C:\Android\PersonIntro\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_8\classes.dex"
-            type="DEX" />
-    </build>
-    <build
-        timestamp="46583959242666"
-        verifier="DEPENDENCY_CHANGED" >
-        <artifact
-            location="C:\Android\PersonIntro\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.mikepenz-google-material-typeface-2.2.0.3.original_2cbc5201712bed31d73b1bae41a6c5dbcb26b9ac\classes.dex"
-            type="DEX" />
-    </build>
     <build timestamp="47133981714172" >
         <artifact
             location="C:\Android\PersonIntro\app\build\intermediates\res\resources-debug.ap_"
