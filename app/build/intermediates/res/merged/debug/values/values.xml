@@ -2514,8 +2514,11 @@
     <color name="primary_text_default_material_light">#de000000</color>
     <color name="primary_text_disabled_material_dark">#4Dffffff</color>
     <color name="primary_text_disabled_material_light">#39000000</color>
+    <color name="ripple_green">#6061ac19</color>
     <color name="ripple_material_dark">#33ffffff</color>
     <color name="ripple_material_light">#1f000000</color>
+    <color name="ripple_purple">#609069b3</color>
+    <color name="ripple_red">#60b91919</color>
     <color name="secondary_text_default_material_dark">#b3ffffff</color>
     <color name="secondary_text_default_material_light">#8a000000</color>
     <color name="secondary_text_disabled_material_dark">#36ffffff</color>
@@ -4057,6 +4060,10 @@
         <item name="android:buttonStyle">@style/myButtonStyle</item>
         <item name="android:textColorPrimary">@android:color/black</item>
         <item name="drawerArrowStyle">@style/MyDrawerArrowToggle</item>
+
+        <item name="android:colorControlHighlight">@color/ripple_purple</item>
+        <!--this somehow fix the prefs ripple issue.... why? -->
+        <!-- TODO : Ripple color in toolbar drop down menu  -->
     </style>
     <style name="Base.AlertDialog.AppCompat" parent="android:Widget">
         <item name="android:layout">@layout/abc_alert_dialog_material</item>
@@ -5089,6 +5096,10 @@
     <style name="CardView.Light">
         <item name="cardBackgroundColor">@color/cardview_light_background</item>
     </style>
+    <style name="CustomAccentOverlay" parent="ThemeOverlay.AppCompat">
+        <item name="colorControlHighlight">@color/ripple_green</item>
+        <item name="android:colorControlHighlight">@color/ripple_green</item>
+    </style>
     <style name="MD_ActionButton">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">@dimen/md_button_height</item>
@@ -5618,6 +5629,18 @@
         <item name="android:dropDownItemStyle">@style/Widget.AppCompat.DropDownItem.Spinner</item>
     </style>
     <style name="Platform.Widget.AppCompat.Spinner" parent="android:Widget.Spinner"/>
+    <style name="RippleGreen" parent="AppTheme">
+        <item name="android:colorControlHighlight">@color/ripple_green</item>
+        <item name="colorControlHighlight">@color/ripple_green</item>
+    </style>
+    <style name="RipplePurple" parent="AppTheme">
+        <item name="android:colorControlHighlight">@color/ripple_purple</item>
+        <item name="colorControlHighlight">@color/ripple_purple</item>
+    </style>
+    <style name="RippleRed" parent="AppTheme">
+        <item name="android:colorControlHighlight">@color/ripple_red</item>
+        <item name="colorControlHighlight">@color/ripple_red</item>
+    </style>
     <style name="RtlOverlay.DialogWindowTitle.AppCompat" parent="Base.DialogWindowTitle.AppCompat">
     </style>
     <style name="RtlOverlay.Widget.AppCompat.ActionBar.TitleItem" parent="android:Widget">

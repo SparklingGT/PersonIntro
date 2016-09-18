@@ -224,12 +224,12 @@
         "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_action_menu_layout.xml"
     },
     {
-        "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_secondary_toggle.xml",
-        "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\5.6.0\\res\\layout\\material_drawer_item_secondary_toggle.xml"
-    },
-    {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
         "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_secondary_toggle.xml",
+        "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\5.6.0\\res\\layout\\material_drawer_item_secondary_toggle.xml"
     },
     {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_progress_indeterminate.xml",

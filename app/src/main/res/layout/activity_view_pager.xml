@@ -10,13 +10,13 @@
         xmlns:tools="http://schemas.android.com/tools"
         tools:context=".ViewPagerActivity">
 
-    <android.support.v7.widget.Toolbar
-            android:id="@+id/toolbar_view_pager"
-            android:layout_width="match_parent"
-            app:theme="@style/MaterialBaseBaseTheme"
-            app:popupTheme="@style/MaterialTheme.Light"
-            android:layout_height="?attr/actionBarSize"
-            android:background="@color/Primary"/>
+        <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar_view_pager"
+                android:layout_width="match_parent"
+                app:theme="@style/MaterialBaseBaseTheme"
+                app:popupTheme="@style/MaterialTheme.Light"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/Primary"/>
 
     <FrameLayout android:layout_width="match_parent"
                  android:layout_height="match_parent"

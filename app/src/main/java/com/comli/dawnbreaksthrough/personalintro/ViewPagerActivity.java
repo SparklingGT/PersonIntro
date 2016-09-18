@@ -75,6 +75,8 @@ public class ViewPagerActivity extends AppCompatActivity
     @Override
     protected void onResume() {
         super.onResume();
-        LayoutUtils.defaultDrawer(LayoutUtils.INT_FROM_CARD);
+        LayoutUtils.defaultDrawer(LayoutUtils.GREEN, LayoutUtils.CARD);
+        LayoutUtils.defaultRipple(LayoutUtils.GREEN, this);
+        // no need to call mDrawer.setSelection.
     }
 }

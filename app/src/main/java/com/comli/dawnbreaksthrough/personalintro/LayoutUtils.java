@@ -3,6 +3,7 @@ package com.comli.dawnbreaksthrough.personalintro;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
+import android.content.res.Resources;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import com.mikepenz.google_material_typeface_library.GoogleMaterial;
@@ -18,10 +19,13 @@ import com.mikepenz.materialdrawer.model.interfaces.IDrawerItem;
  */
 public class LayoutUtils
 {
-    private static final int INT_NULL_POSITION = -1;
-    public static final int INT_FROM_HOME = 3258;
-    public static final int INT_FROM_CARD = 23579;
-    public static final int INT_FROM_PREFS = 23;
+    private static final int NULL_POSITION = -1;
+    public static final int HOME = 3258;
+    public static final int CARD = 23579;
+    public static final int PREFS = 23;
+    public static final int RED = 342;
+    public static final int GREEN = 4;
+    public static final int PURPLE = 11;
     public static final long LONG_HOME_IDENTIFIER = 37529;
     public static final long LONG_PREFS_IDENTIFIER = 329;
 
@@ -132,29 +136,28 @@ public class LayoutUtils
                 .withRootView(placeHolder)
                 .withSliderBackgroundColorRes(R.color.drawer_background)
                 .withDrawerWidthDp(150)
-                .withSelectedItemByPosition(INT_NULL_POSITION)
+                .withSelectedItemByPosition(NULL_POSITION)
                 .build();
 
         return drawer;
     }
 
-    public static void defaultDrawer(int fromWhere) {
+    /**
+     *
+     * @param color what color would you like ?
+     * @param fromWhere where do you call this method ?
+     */
+    public static void defaultDrawer(int color, int fromWhere) {
         int selectedColor;
-        switch (fromWhere) {
-            case INT_FROM_HOME:
+        switch (color) {
+            case RED:
                 selectedColor = R.color.drawer_selected_red;
-                itemHome.withEnabled(false);
-                itemSetting.withEnabled(true);
                 break;
-            case INT_FROM_PREFS:
-                selectedColor = R.color.drawer_selected_purple;
-                itemHome.withEnabled(true);
-                itemSetting.withEnabled(false);
-                break;
-            case INT_FROM_CARD:
+            case GREEN:
                 selectedColor = R.color.drawer_selected_green;
-                itemHome.withEnabled(true);
-                itemSetting.withEnabled(true);
+                break;
+            case PURPLE:
+                selectedColor = R.color.drawer_selected_purple;
                 break;
             default:
                 selectedColor = R.color.drawer_selected_red;
@@ -162,5 +165,36 @@ public class LayoutUtils
         }
         itemHome.withSelectedColorRes(selectedColor);
         itemSetting.withSelectedColorRes(selectedColor);
+
+        switch (fromWhere) {
+            case HOME:
+                itemHome.withEnabled(false);
+                itemSetting.withEnabled(true);
+                break;
+            case PREFS:
+                itemHome.withEnabled(true);
+                itemSetting.withEnabled(false);
+                break;
+            case CARD:
+                itemHome.withEnabled(true);
+                itemSetting.withEnabled(true);
+                break;
+        }
+
+    }
+
+    public static void defaultRipple(int color, Context context) {
+        Resources.Theme theme = context.getTheme();
+        switch (color) {
+            case RED:
+                theme.applyStyle(R.style.RippleRed, true);
+                break;
+            case GREEN:
+                theme.applyStyle(R.style.RippleGreen, true);
+                break;
+            case PURPLE:
+                theme.applyStyle(R.style.RipplePurple, true);
+                break;
+        }
     }
 }

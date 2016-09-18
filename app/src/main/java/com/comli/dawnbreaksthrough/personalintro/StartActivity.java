@@ -15,12 +15,13 @@ public class StartActivity extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_start);
+
         FragmentManager fragmentManager = getSupportFragmentManager();
 
-        Toolbar mToolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(mToolbar);
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
 
-        mDrawer = LayoutUtils.prepareDrawer(mToolbar, R.id.drawer_layout_start, this);
+        mDrawer = LayoutUtils.prepareDrawer(toolbar, R.id.drawer_layout_start, this);
 
 
         Fragment fragment =  fragmentManager.findFragmentById(R.id.fragment_container);
@@ -34,8 +35,10 @@ public class StartActivity extends AppCompatActivity
 
     @Override
     protected void onResume() {
-        LayoutUtils.defaultDrawer(LayoutUtils.INT_FROM_HOME);
-        mDrawer.setSelection(LayoutUtils.LONG_HOME_IDENTIFIER, false);
         super.onResume();
+
+        LayoutUtils.defaultDrawer(LayoutUtils.RED, LayoutUtils.HOME);
+        LayoutUtils.defaultRipple(LayoutUtils.RED, this);
+        mDrawer.setSelection(LayoutUtils.LONG_HOME_IDENTIFIER, false); //set default selection
     }
 }

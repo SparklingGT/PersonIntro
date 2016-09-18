@@ -42,9 +42,11 @@ public class SettingActivity extends AppCompatActivity
 
     @Override
     protected void onResume() {
-        LayoutUtils.defaultDrawer(LayoutUtils.INT_FROM_PREFS);
-        mDrawer.setSelection(LayoutUtils.LONG_PREFS_IDENTIFIER, false);
         super.onResume();
+
+        LayoutUtils.defaultDrawer(LayoutUtils.PURPLE, LayoutUtils.PREFS);
+        LayoutUtils.defaultRipple(LayoutUtils.PURPLE, this);
+        mDrawer.setSelection(LayoutUtils.LONG_PREFS_IDENTIFIER, false); // set default selection
     }
 
     private void setStatusBarColor() {

@@ -149,6 +149,7 @@
             android:layout_marginTop="8dp"
             style="?android:listSeparatorTextViewStyle"/>
 
+
     <EditText
             android:gravity="center"
             android:paddingTop="4dp"
@@ -160,7 +161,6 @@
             android:layout_marginBottom="8dp"
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp"/>
-
 
     <TextView
             android:layout_width="match_parent"
