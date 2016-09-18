@@ -65,4 +65,4 @@ Day 7 (18/09/16) :
 3) [UI] Theme the error dialog.
 4) [UI] Scrolling effect now has the same color as the toolbar that the current activity possesses.
 5) [FIX] Fix a bug where in person card view despite some errors such as couldn't find a camera to take picture with occurred, it continues to process, which causes the app to crash.
-6) [FIX] Fix a bug when pressing back button from activities other than the default launched activity, then open the drawer, click on "gitHub", the app crashes on you instantly right after that, even though you have browser installed (It takes me hours to fix = =).  
+6) [FIX] Fix a bug when pressing back button from activities other than the default launched activity, then open the drawer, click on "gitHub", and you don't have a browser installed, then the app would crash on you instantly right after that (It took me hours to fix = =).  
