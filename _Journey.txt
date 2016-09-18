@@ -25,3 +25,8 @@ Day 6:
 1) UI improvement.
 2) Implement the behavior of the sliding drawer.
 3) Bug fixes.
+
+Day 7:
+1) UI improvement.
+2) Replace snackbars w/ dialogs.
+2) Bugs fixed.
