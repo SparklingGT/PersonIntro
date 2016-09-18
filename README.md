@@ -21,5 +21,6 @@ At the time of writing, the project does NOT yet reach its <em>alpha</em> stage.
 <br>
 <strong> For more info, please read _GOAL.txt, _JOURNEY.txt, _CHANGELOG.txt </strong>
 <br>
+<br>
 <hr>
 Updated on 18/09/16
