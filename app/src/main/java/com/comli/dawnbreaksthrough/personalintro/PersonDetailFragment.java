@@ -495,30 +495,6 @@ public class PersonDetailFragment extends Fragment implements
         }
     }
 
-    /**
-     * will crash the app if it gets called before the layout is ready.
-     * @param errorCode Error Code
-     */
-
-    private void errorOccurred(int errorCode) {
-        switch (errorCode) {
-            case INT_ERR_NO_CAMERA: case INT_ERR_NO_PIC_DIR:
-                int errorStringCode;
-                if (errorCode == INT_ERR_NO_PIC_DIR) {
-                    errorStringCode = R.string.err_no_pic_dir;
-                } else {
-                    errorStringCode = R.string.err_no_camera_app;
-                }
-                Snackbar.make(getView(), errorStringCode, Snackbar.LENGTH_LONG).show();
-                break;
-            case INT_ERR_NO_IMAGE_VIEWER:
-                Snackbar.make(getView(), R.string.err_no_image_viewer_app, Snackbar.LENGTH_LONG).show();
-                break;
-        }
-    }
-
-
-
     private void copyToClipboard(String tag) {
         ClipboardManager clipboardManager = (ClipboardManager)
                 getActivity().getSystemService(Context.CLIPBOARD_SERVICE);

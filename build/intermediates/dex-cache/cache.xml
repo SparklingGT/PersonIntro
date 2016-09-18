@@ -19,7 +19,7 @@
         jar="C:\Android\PersonIntro\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         revision="24.0.2"
-        sha1="ccd21cf65ce4c67afdb8543c50ac9a384c795cb0">
+        sha1="864e12b5b2b1b70433fc4dd0466fdcdd7b3c1d20">
         <dex dex="C:\Android\PersonIntro\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_129d2060cbfdcdbad9562f6adbee23f5fbc4851a\classes.dex" />
     </item>
     <item
@@ -208,7 +208,7 @@
         jar="C:\Android\PersonIntro\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         revision="24.0.2"
-        sha1="9c55c0589c9360fd6b166106ed08818d515d3818">
+        sha1="a0347c087910546d76588f34f2b348c08e7426c0">
         <dex dex="C:\Android\PersonIntro\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_0a4c58d32380a5d621b2718b8e27926d2e48b294\classes.dex" />
     </item>
     <item

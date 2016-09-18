@@ -44,9 +44,12 @@ public class SettingActivity extends AppCompatActivity
         super.onResume();
 
         LayoutUtils.setupDrawerItemListener(this);
+        mDrawer.setSelection(LayoutUtils.IDENTIFIER_PREFS, false); // set default selection
+        // call setSelection before setDrawerBehavior
+
         LayoutUtils.setDrawerBehavior(LayoutUtils.PURPLE, LayoutUtils.PREFS);
         LayoutUtils.setRippleColor(LayoutUtils.PURPLE, LayoutUtils.PREFS, this);
-        mDrawer.setSelection(LayoutUtils.IDENTIFIER_PREFS, false); // set default selection
+
     }
 
     @Override

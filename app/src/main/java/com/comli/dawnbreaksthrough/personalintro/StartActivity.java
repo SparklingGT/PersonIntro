@@ -36,10 +36,14 @@ public class StartActivity extends AppCompatActivity
     @Override
     protected void onResume() {
         super.onResume();
+
         LayoutUtils.setupDrawerItemListener(this);
+        mDrawer.setSelection(LayoutUtils.IDENTIFIER_HOME, false); //set default selection
+        // call setSelection before setDrawerBehavior
+
         LayoutUtils.setDrawerBehavior(LayoutUtils.RED, LayoutUtils.HOME);
         LayoutUtils.setRippleColor(LayoutUtils.RED, LayoutUtils.HOME, this);
-        mDrawer.setSelection(LayoutUtils.IDENTIFIER_HOME, false); //set default selection
+
     }
 
     @Override

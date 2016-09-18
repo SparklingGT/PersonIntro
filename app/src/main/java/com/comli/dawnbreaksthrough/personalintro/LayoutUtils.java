@@ -35,8 +35,6 @@ public class LayoutUtils
     public static final long IDENTIFIER_PREFS = 329;
     public static final long IDENTIFIER_DIVIDER = 357;
 
-    private static Context sContext;
-
     private static PrimaryDrawerItem itemHome = new PrimaryDrawerItem()
             .withDisabledIconColorRes(R.color.icon)
             .withDisabledTextColorRes(R.color.item_text_drawer)
