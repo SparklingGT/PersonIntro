@@ -54,6 +54,9 @@ public class PersonDetailFragment extends Fragment implements
     private static final String STRING_GENDER_DIALOG_TAG = "GenderDialog";
     private static final String STRING_DELETE_DIALOG_TAG = "DeleteDialog";
     private static final String STRING_PHOTO_DIALOG_TAG = "PhotoDialog";
+    private static final String ERR_PATH_NOT_FOUND_TAG = "Err_pathNotFound";
+    private static final String ERR_NO_CAMERA_TAG = "Err_noCamera";
+    private static final String ERR_NO_IMAGE_VIEWER_TAG = "Err_noCamera";
     private static final String STRING_EXTRA_DATE_TIME_INTENT = "com.comli.dawnbreaksthrough.personalintro.DateTimeResult";
     private static final String STRING_EXTRA_INT_INTENT = "com.comli.dawnbreaksthrough.personalintro.Num";
     private static final int INT_DATE_REQUEST = 38;
@@ -249,19 +252,16 @@ public class PersonDetailFragment extends Fragment implements
         setHasOptionsMenu(true);
         updatePhoto();
 
-        Log.i(TAG, "onCreateView");
         return view;
     }
 
     @Override
     public void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
-        Log.i(TAG, "onSaveInstanceState");
     }
 
     @Override
     public void onPause() {
-        Log.i(TAG, "onPause");
         super.onPause();
         clearFocus();
         PersonLab.get(getActivity()).updateDatabases(mPerson);
@@ -312,13 +312,17 @@ public class PersonDetailFragment extends Fragment implements
             case R.id.button_camera_action:
                 Intent intentLaunchCamera = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
                 if (mPhotoFile == null) {
-                    errorOccurred(INT_ERR_NO_PIC_DIR);
+                    BasicDialog dialog = BasicDialog.newInstance(BasicDialog.ERR_PATH_NOT_FOUND);
+                    dialog.show(getFragmentManager(), ERR_PATH_NOT_FOUND_TAG);
                 } else if (intentLaunchCamera.resolveActivity(mPackageManager) == null) {
-                    errorOccurred(INT_ERR_NO_CAMERA);
+                    BasicDialog dialog = BasicDialog.newInstance(BasicDialog.ERR_NO_CAMERA);
+                    dialog.show(getFragmentManager(), ERR_NO_CAMERA_TAG);
+                } else {
+                    Uri uri = Uri.fromFile(mPhotoFile);
+                    intentLaunchCamera.putExtra(MediaStore.EXTRA_OUTPUT, uri);
+                    startActivityForResult(intentLaunchCamera, INT_CAMERA_ACTION_REQUEST);
                 }
-                Uri uri = Uri.fromFile(mPhotoFile);
-                intentLaunchCamera.putExtra(MediaStore.EXTRA_OUTPUT, uri);
-                startActivityForResult(intentLaunchCamera, INT_CAMERA_ACTION_REQUEST);
+
                 break;
             case R.id.image_view_person_photo:
                 PhotoDialog photoDialog = PhotoDialog.newInstance(mPerson.getUUID());
@@ -362,7 +366,8 @@ public class PersonDetailFragment extends Fragment implements
                     // further more, from Javadoc : setType would clear whatever
                     // that was previously set (e.g. setData(Uri))
                     if (intentLosslessPhoto.resolveActivity(mPackageManager) == null) {
-                        errorOccurred(INT_ERR_NO_IMAGE_VIEWER);
+                        BasicDialog dialog = BasicDialog.newInstance(BasicDialog.ERR_NO_VIEWER);
+                        dialog.show(getFragmentManager(), ERR_NO_IMAGE_VIEWER_TAG);
                     } else {
                         startActivity(intentLosslessPhoto);
                     }

@@ -15,33 +15,97 @@
         <!-- TODO : Ripple color in toolbar drop down menu  -->
     </style>
 
+    <style name="CardTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/Primary</item>
+        <item name="colorPrimaryDark">@color/PrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:buttonStyle">@style/myButtonStyle</item>
+        <item name="android:textColorPrimary">@android:color/black</item>
+        <item name="drawerArrowStyle">@style/MyDrawerArrowToggle</item>
+
+        <item name="android:colorControlHighlight">@color/ripple_green</item>
+        <!--this somehow fix the prefs ripple issue.... why? -->
+        <!-- TODO : Ripple color in toolbar drop down menu  -->
+    </style>
+
+    <style name="PrefsTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/prefsPrimary</item>
+        <item name="colorPrimaryDark">@color/prefsPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:buttonStyle">@style/myButtonStyle</item>
+        <item name="android:textColorPrimary">@android:color/black</item>
+        <item name="drawerArrowStyle">@style/MyDrawerArrowToggle</item>
+
+        <item name="android:colorControlHighlight">@color/ripple_purple</item>
+        <!--this somehow fix the prefs ripple issue.... why? -->
+        <!-- TODO : Ripple color in toolbar drop down menu  -->
+    </style>
+
+
+
+
+
     <style name="myButtonStyle" parent="Widget.AppCompat.Button">
         <item name="android:textAllCaps">false</item>
     </style>
+
 
     <style name="MyDrawerArrowToggle" parent="Widget.AppCompat.DrawerArrowToggle">
         <item name="color">@color/drawer_toggle</item>
     </style>
 
-    <style name="RippleRed" parent="AppTheme">
+
+    <style name="RippleRed_Home" parent="AppTheme">
         <item name="android:colorControlHighlight">@color/ripple_red</item>
         <item name="colorControlHighlight">@color/ripple_red</item>
     </style>
-
-    <style name="RippleGreen" parent="AppTheme">
+    <style name="RippleGreen_Home" parent="AppTheme">
         <item name="android:colorControlHighlight">@color/ripple_green</item>
         <item name="colorControlHighlight">@color/ripple_green</item>
     </style>
-
-    <style name="RipplePurple" parent="AppTheme">
+    <style name="RipplePurple_Home" parent="AppTheme">
         <item name="android:colorControlHighlight">@color/ripple_purple</item>
         <item name="colorControlHighlight">@color/ripple_purple</item>
     </style>
+
+
+    <style name="RippleRed_Card" parent="CardTheme">
+        <item name="android:colorControlHighlight">@color/ripple_red</item>
+        <item name="colorControlHighlight">@color/ripple_red</item>
+    </style>
+    <style name="RippleGreen_Card" parent="CardTheme">
+        <item name="android:colorControlHighlight">@color/ripple_green</item>
+        <item name="colorControlHighlight">@color/ripple_green</item>
+    </style>
+    <style name="RipplePurple_Card" parent="CardTheme">
+        <item name="android:colorControlHighlight">@color/ripple_purple</item>
+        <item name="colorControlHighlight">@color/ripple_purple</item>
+    </style>
+
+
+    <style name="RippleRed_Prefs" parent="PrefsTheme">
+        <item name="android:colorControlHighlight">@color/ripple_red</item>
+        <item name="colorControlHighlight">@color/ripple_red</item>
+    </style>
+    <style name="RippleGreen_Prefs" parent="PrefsTheme">
+        <item name="android:colorControlHighlight">@color/ripple_green</item>
+        <item name="colorControlHighlight">@color/ripple_green</item>
+    </style>
+    <style name="RipplePurple_Prefs" parent="PrefsTheme">
+        <item name="android:colorControlHighlight">@color/ripple_purple</item>
+        <item name="colorControlHighlight">@color/ripple_purple</item>
+    </style>
+
+
+    <!--Reserver-->
+
 
     <!--<style name="CustomAccentOverlay" parent="ThemeOverlay.AppCompat">-->
         <!--<item name="colorControlHighlight">@color/ripple_green</item>-->
         <!--<item name="android:colorControlHighlight">@color/ripple_green</item>-->
     <!--</style>-->
-    
+
 
 </resources>

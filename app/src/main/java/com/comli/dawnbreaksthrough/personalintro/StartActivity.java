@@ -10,6 +10,7 @@ import com.mikepenz.materialdrawer.Drawer;
 public class StartActivity extends AppCompatActivity
 {
     Drawer mDrawer;
+    Toolbar mToolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,11 +19,10 @@ public class StartActivity extends AppCompatActivity
 
         FragmentManager fragmentManager = getSupportFragmentManager();
 
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+        Toolbar mToolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(mToolbar);
 
-        mDrawer = LayoutUtils.prepareDrawer(toolbar, R.id.drawer_layout_start, this);
-
+        mDrawer = LayoutUtils.setupDrawer(mToolbar, R.id.drawer_layout_start, this);
 
         Fragment fragment =  fragmentManager.findFragmentById(R.id.fragment_container);
         if (fragment == null) {
@@ -36,9 +36,14 @@ public class StartActivity extends AppCompatActivity
     @Override
     protected void onResume() {
         super.onResume();
+        LayoutUtils.setupDrawerItemListener(this);
+        LayoutUtils.setDrawerBehavior(LayoutUtils.RED, LayoutUtils.HOME);
+        LayoutUtils.setRippleColor(LayoutUtils.RED, LayoutUtils.HOME, this);
+        mDrawer.setSelection(LayoutUtils.IDENTIFIER_HOME, false); //set default selection
+    }
 
-        LayoutUtils.defaultDrawer(LayoutUtils.RED, LayoutUtils.HOME);
-        LayoutUtils.defaultRipple(LayoutUtils.RED, this);
-        mDrawer.setSelection(LayoutUtils.LONG_HOME_IDENTIFIER, false); //set default selection
+    @Override
+    protected void onPause() {
+        super.onPause();
     }
 }

@@ -4,63 +4,36 @@
     api-level="23"
     density="560dpi"
     format="7"
-    timestamp="21496857181178"
-    verifier="R_CLASS_CHANGE" >
+    timestamp="46622038278336"
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="397" />
+        duration="401" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="267" />
     <task
         name="instant-run-transform"
-        duration="45" />
+        duration="16" />
     <task
         name="verifier"
-        duration="14" />
+        duration="1" />
 
     <artifact
-        location="C:\Android\PersonIntro\app\build\intermediates\res\resources-debug.ap_"
-        type="RESOURCES" />
-    <artifact
-        location="C:\Android\PersonIntro\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Android\PersonIntro\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Android\PersonIntro\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_7\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Android\PersonIntro\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Android\PersonIntro\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Android\PersonIntro\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Android\PersonIntro\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
-        type="DEX" />
+        location="C:\Android\PersonIntro\app\build\intermediates\reload-dex\debug\classes.dex"
+        type="RELOAD_DEX" />
 
-    <build timestamp="21371775922874" >
+    <build timestamp="43776779855715" >
         <artifact
             location="C:\Android\PersonIntro\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="21496857181178"
+        timestamp="46329874405481"
         verifier="R_CLASS_CHANGE" >
         <artifact
-            location="C:\Android\PersonIntro\app\build\intermediates\res\resources-debug.ap_"
-            type="RESOURCES" />
-        <artifact
-            location="C:\Android\PersonIntro\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Android\PersonIntro\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
+            location="C:\Android\PersonIntro\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
             type="DEX" />
         <artifact
             location="C:\Android\PersonIntro\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_7\classes.dex"
@@ -69,14 +42,34 @@
             location="C:\Android\PersonIntro\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
             type="DEX" />
         <artifact
-            location="C:\Android\PersonIntro\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
+            location="C:\Android\PersonIntro\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
             type="DEX" />
         <artifact
-            location="C:\Android\PersonIntro\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
+            location="C:\Android\PersonIntro\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Android\PersonIntro\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
             type="DEX" />
         <artifact
             location="C:\Android\PersonIntro\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
             type="DEX" />
+    </build>
+    <build
+        timestamp="46578069508373"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Android\PersonIntro\app\build\intermediates\res\resources-debug.ap_"
+            type="RESOURCES" />
+        <artifact
+            location="C:\Android\PersonIntro\app\build\intermediates\builds\debug\46578069508373\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="46622038278336"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Android\PersonIntro\app\build\intermediates\reload-dex\debug\classes.dex"
+            type="RELOAD_DEX" />
     </build>
 
 </instant-run>

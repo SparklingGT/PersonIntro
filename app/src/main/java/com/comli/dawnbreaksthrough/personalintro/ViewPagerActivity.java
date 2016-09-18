@@ -6,13 +6,11 @@ import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
-import android.support.v4.content.ContextCompat;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.view.Window;
-import android.view.WindowManager;
 import com.beardedhen.androidbootstrap.TypefaceProvider;
+import com.mikepenz.materialdrawer.Drawer;
 
 import java.util.List;
 import java.util.UUID;
@@ -30,19 +28,19 @@ public class ViewPagerActivity extends AppCompatActivity
     ViewPager mViewPager;
     List<Person> mPersonList;
 
+    Drawer mDrawer;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setTheme(R.style.CardTheme);
         TypefaceProvider.registerDefaultIconSets();
         setContentView(R.layout.activity_view_pager);
 
-        Window window = getWindow();
-        window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
-        window.setStatusBarColor(ContextCompat.getColor(this, R.color.PrimaryDark));
-
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar_view_pager);
         setSupportActionBar(toolbar);
-        LayoutUtils.prepareDrawer(toolbar, R.id.drawer_layout_view_pager, this);
+
+        mDrawer = LayoutUtils.setupDrawer(toolbar, R.id.drawer_layout_view_pager, this);
 
         mViewPager = (ViewPager) findViewById(R.id.view_pager);
         final FragmentManager fragmentManager = getSupportFragmentManager();
@@ -75,8 +73,15 @@ public class ViewPagerActivity extends AppCompatActivity
     @Override
     protected void onResume() {
         super.onResume();
-        LayoutUtils.defaultDrawer(LayoutUtils.GREEN, LayoutUtils.CARD);
-        LayoutUtils.defaultRipple(LayoutUtils.GREEN, this);
-        // no need to call mDrawer.setSelection.
+
+        LayoutUtils.setupDrawerItemListener(this);
+        LayoutUtils.setDrawerBehavior(LayoutUtils.GREEN, LayoutUtils.CARD);
+        LayoutUtils.setRippleColor(LayoutUtils.GREEN, LayoutUtils.CARD, this);
+        mDrawer.setSelection(LayoutUtils.IDENTIFIER_DIVIDER, false); // workaround for none selection.
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
     }
 }
