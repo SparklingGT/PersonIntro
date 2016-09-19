@@ -62,8 +62,15 @@ Day 6 (17/09/16) :
 Day 7 (18/09/16) :
 
 1) [ADD&CHANGE] Replace snackbars with dialogs.
-2) [UI] Ripple effect added, its color is corresponded to the theme of the current activity.
-3) [UI] Theme the error dialog.
-4) [UI] Scrolling effect now has the same color as the toolbar that the current activity possesses.
-5) [FIX] Fix a bug where in person card view despite some errors such as couldn't find a camera to take picture with occurred, it continues to process, which causes the app to crash(somehow I put the codes outside of { }, so this was a easy fix).
-6) [FIX] Fix a bug when pressing back button from activities other than the default launched activity, then open the drawer, click on "gitHub", and you don't have a browser installed, then the app would crash on you instantly right after that, no error dialog is shown (It took me hours to fix = =).  
+2) [ADD] Click on drawer item "gitHub" now brings you the website that hosts this project.
+3) [UI] Ripple effect added, its color is corresponded to the theme of the current activity.
+4) [UI] Theme the error dialog.
+5) [UI] Scrolling effect now has the same color as the toolbar that the current activity possesses.
+6) [FIX] Fix a bug where in person card view despite some errors such as couldn't find a camera to take picture with occurred, it continues to process, which causes the app to crash(somehow I put the codes outside of { }, so this was a easy fix).
+7) [FIX] Fix a bug when pressing back button from activities other than the default launched activity, then open the drawer, click on "gitHub", and you don't have a browser installed, then the app would crash on you instantly right after that, no error dialog is shown (It took me hours to fix = =).  
+
+
+Day 8 (19/09/16) :
+
+1) [ADD] Drawer item "Credit" and "About" now has something.
+2) [FIX] Fix a bug that causes app to crash when pressing on the second item of the preferences list.

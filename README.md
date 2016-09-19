@@ -2,7 +2,7 @@
 
 <h1>高中桃園教育局審查資料之一</h1>
 
-<h1><blockquote>EXAM and SCHOOL coming IRL</blockquote></h1>
+<h1><blockquote>EXAM and SCHOOL coming IRL. <br>Might be unable to work on this for quite some time.</blockquote></h1>
 
 This is my homework (I designed it), starts on 12/09/16 (dd/mm/yy). <br>
 Goal is not only to make a copy of <i>criminalIntent</i> but also add some new stuff in. <br>

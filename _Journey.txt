@@ -30,3 +30,7 @@ Day 7:
 1) UI improvement.
 2) Replace snackbars w/ dialogs.
 2) Bugs fixed.
+
+Day 8:
+1) Add two dialogs.
+2) Fix a bug.
