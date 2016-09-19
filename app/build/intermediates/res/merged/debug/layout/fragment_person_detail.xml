@@ -169,6 +169,7 @@
             android:layout_height="wrap_content"
             android:text="@string/person_associates"
             style="?android:listSeparatorTextViewStyle"/>
+
 </LinearLayout>
 
 

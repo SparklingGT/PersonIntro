@@ -20,7 +20,6 @@ public class SettingActivity extends AppCompatActivity
 
 
     Drawer mDrawer;
-    Toolbar mToolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,10 +27,10 @@ public class SettingActivity extends AppCompatActivity
         setTheme(R.style.PrefsTheme);
         setContentView(R.layout.activity_setting);
 
-        Toolbar mToolbar = (Toolbar) findViewById(R.id.toolbar_prefs);
-        setSupportActionBar(mToolbar);
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar_prefs);
+        setSupportActionBar(toolbar);
 
-        mDrawer = LayoutUtils.setupDrawer(mToolbar, R.id.drawer_layout_prefs, this);
+        mDrawer = LayoutUtils.setupDrawer(toolbar, R.id.drawer_layout_prefs, this);
 
         if (getFragmentManager().findFragmentById(R.id.fragment_container_prefs) == null) {
             getFragmentManager().beginTransaction()
@@ -43,7 +42,7 @@ public class SettingActivity extends AppCompatActivity
     protected void onResume() {
         super.onResume();
 
-        LayoutUtils.setupDrawerItemListener(this);
+        LayoutUtils.setDrawerItemListener(this);
         mDrawer.setSelection(LayoutUtils.IDENTIFIER_PREFS, false); // set default selection
         // call setSelection before setDrawerBehavior
 

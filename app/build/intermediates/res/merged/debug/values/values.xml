@@ -5,32 +5,6 @@
         <item>Other</item>
         <item>Male</item>
     </string-array>
-    <string-array name="pref_example_list_titles">
-        <item>Always</item>
-        <item>When possible</item>
-        <item>Never</item>
-    </string-array>
-    <string-array name="pref_example_list_values">
-        <item>1</item>
-        <item>0</item>
-        <item>-1</item>
-    </string-array>
-    <string-array name="pref_sync_frequency_titles">
-        <item>15 minutes</item>
-        <item>30 minutes</item>
-        <item>1 hour</item>
-        <item>3 hours</item>
-        <item>6 hours</item>
-        <item>Never</item>
-    </string-array>
-    <string-array name="pref_sync_frequency_values">
-        <item>15</item>
-        <item>30</item>
-        <item>60</item>
-        <item>180</item>
-        <item>360</item>
-        <item>-1</item>
-    </string-array>
     <attr format="string" name="badgeText"/>
     <attr format="enum" name="bootstrapBrand">
         <enum name="primary" value="0"/>
@@ -2966,12 +2940,22 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="about_dialog_content">This project is launched on 12/09/16, right now it hasn\'t been finished yet.
+    \n\nI will probably stop in the middle and come back when I finish the book <i>\"Android Programming: The Big Nerd Ranch Guide (2nd Edition)\"</i>.
+    \n\nAs for now, the app is currently actively developing by me.</string>
+    <string name="about_dialog_title">About</string>
     <string name="all_error">Error !</string>
     <string name="app_name">PersonalIntro</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
     <string name="camera_action_description">Click to take a pic</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
+    <string name="credit_dialog_content">1) Stack Overflow
+        \n2) <i>\"Android Programming: The Big Nerd Ranch Guide (2nd Edition)\"</i>
+        \n3) gitHub (Libraries)
+        \n4) IntelliJ
+        \n5) and so on</string>
+    <string name="credit_dialog_title">All Credit Goes To</string>
     <string name="define_AndroidIconics">year;owner</string>
     <string name="define_GoogleMaterialDesignIcons"/>
     <string name="define_fastadapter">year;owner</string>
@@ -3922,7 +3906,6 @@
     <string name="gmd_zoom_in">gmd_zoom_in</string>
     <string name="gmd_zoom_out">gmd_zoom_out</string>
     <string name="gmd_zoom_out_map">gmd_zoom_out_map</string>
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="hint">Long Click</string>
     <string name="hint_association">Who associates with this person?</string>
     <string name="hint_intro">Long tap to enter the intro</string>
@@ -4025,26 +4008,9 @@
     <string name="person_intro_title">Introduction</string>
     <string name="person_name">Name : </string>
     <string name="person_note_title">Note</string>
-    <string name="pref_default_display_name">John Smith</string>
-    <string name="pref_description_social_recommendations">Recommendations for people to contact based on your message
-        history
-    </string>
-    <string name="pref_header_data_sync">Data &amp; sync</string>
-    <string name="pref_header_general">General</string>
-    <string name="pref_header_notifications">Notifications</string>
-    <string name="pref_ringtone_silent">Silent</string>
-    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
-    <string name="pref_title_display_name">Display name</string>
-    <string name="pref_title_new_message_notifications">New message notifications</string>
-    <string name="pref_title_ringtone">Ringtone</string>
-    <string name="pref_title_social_recommendations">Enable social recommendations</string>
-    <string name="pref_title_sync_frequency">Sync frequency</string>
-    <string name="pref_title_system_sync_settings">System sync settings</string>
-    <string name="pref_title_vibrate">Vibrate</string>
     <string name="search_menu_title">Search</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="time_picker_back">BACK</string>
-    <string name="title_activity_tt">Settings</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>

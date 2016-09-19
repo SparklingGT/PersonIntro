@@ -93,10 +93,6 @@ public class PersonListFragment extends Fragment
             profile = (ImageView) itemView.findViewById(R.id.circle_image_profile);
             itemView.setOnClickListener(this);
             itemView.setOnLongClickListener(this);
-//            int[] attrs = new int[]{R.attr.selectableItemBackgroundBorderless};
-//            TypedArray typedArray = getActivity().obtainStyledAttributes(attrs);
-//            int backgroundResource = typedArray.getResourceId(0, 0);
-//            itemView.setBackgroundResource(backgroundResource);
         }
 
         public void bindPerson(Person person) {

@@ -24,6 +24,8 @@ public class LayoutUtils
 {
     private static final int NULL_POSITION = -1;
     private static final String ERR_NO_BROWSER_DIALOG = "ERR_NoBrowser";
+    private static final String ABOUT_DIALOG_TAG = "aboutDialog";
+    private static final String CREDIT_DIALOG_TAG = "creditDialog";
 
     public static final int HOME = 3258;
     public static final int CARD = 23579;
@@ -107,7 +109,10 @@ public class LayoutUtils
             .withSelectable(false);
 
 
-    public static void setupDrawerItemListener(final Context context) {
+    // -----------------Method starts here------------------------------//
+
+
+    public static void setDrawerItemListener(final Context context) {
 
         itemHome.withOnDrawerItemClickListener(new Drawer.OnDrawerItemClickListener()
         {
@@ -147,6 +152,28 @@ public class LayoutUtils
                 return false;
             }
         });
+
+        itemAbout.withOnDrawerItemClickListener(new Drawer.OnDrawerItemClickListener()
+        {
+            @Override
+            public boolean onItemClick(View view, int position, IDrawerItem drawerItem) {
+                BasicDialog dialog = BasicDialog.newInstance(BasicDialog.ABOUT);
+                dialog.show(((AppCompatActivity) context).getSupportFragmentManager(), ABOUT_DIALOG_TAG);
+                return false;
+            }
+        });
+
+        itemCredit.withOnDrawerItemClickListener(new Drawer.OnDrawerItemClickListener()
+        {
+            @Override
+            public boolean onItemClick(View view, int position, IDrawerItem drawerItem) {
+                BasicDialog dialog = BasicDialog.newInstance(BasicDialog.CREDIT);
+                dialog.show(((AppCompatActivity) context).getSupportFragmentManager(), CREDIT_DIALOG_TAG);
+                return false;
+            }
+        });
+
+
     }
 
     public static Drawer setupDrawer(Toolbar toolbar, final int placeHolder, final Context context) {

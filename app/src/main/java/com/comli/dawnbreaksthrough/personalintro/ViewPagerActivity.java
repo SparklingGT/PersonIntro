@@ -74,7 +74,7 @@ public class ViewPagerActivity extends AppCompatActivity
     protected void onResume() {
         super.onResume();
 
-        LayoutUtils.setupDrawerItemListener(this);
+        LayoutUtils.setDrawerItemListener(this);
         LayoutUtils.setDrawerBehavior(LayoutUtils.GREEN, LayoutUtils.CARD);
         LayoutUtils.setRippleColor(LayoutUtils.GREEN, LayoutUtils.CARD, this);
         mDrawer.setSelection(LayoutUtils.IDENTIFIER_DIVIDER, false); // workaround for none selection.

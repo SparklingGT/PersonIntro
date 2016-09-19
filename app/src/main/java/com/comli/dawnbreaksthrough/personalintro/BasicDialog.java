@@ -20,6 +20,7 @@ public class BasicDialog extends DialogFragment
     public static final int ERR_PATH_NOT_FOUND = 341;
     public static final int ERR_NO_CAMERA = 1;
     public static final int ABOUT = 32;
+    public static final int CREDIT = 73;
 
     /**
      *
@@ -54,6 +55,9 @@ public class BasicDialog extends DialogFragment
                 break;
             default:
                 dialog = new MaterialDialog.Builder(getActivity())
+                        .title("placeHolder")
+                        // or it is not gonna work, setTitle works under the condition
+                        // that the dialog has title in the first place.
                         .build();
                 break;
         }
@@ -74,11 +78,22 @@ public class BasicDialog extends DialogFragment
                 content = R.string.err_no_pic_dir;
                 break;
             case ABOUT:
-
+                content = R.string.about_dialog_content;
+                dialog.setTitle(getString(R.string.about_dialog_title));
+                break;
+            case CREDIT:
+                content = R.string.credit_dialog_content;
+                dialog.setTitle(getString(R.string.credit_dialog_title));
                 break;
         }
-        dialog.setContent(getString(content));
+//        dialog.setContent(getString(content));
+        // this would strip the style off.
 
+//        dialog.setContent(Html.fromHtml(getString(content)));
+        // Use <!CDATA[[ content goes in here... ]]>
+
+        dialog.setContent(getText(content));
+        // this keeps the style.
 
         return dialog;
     }

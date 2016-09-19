@@ -37,7 +37,7 @@ public class StartActivity extends AppCompatActivity
     protected void onResume() {
         super.onResume();
 
-        LayoutUtils.setupDrawerItemListener(this);
+        LayoutUtils.setDrawerItemListener(this);
         mDrawer.setSelection(LayoutUtils.IDENTIFIER_HOME, false); //set default selection
         // call setSelection before setDrawerBehavior
 

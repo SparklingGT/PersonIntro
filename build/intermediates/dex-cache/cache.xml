@@ -19,7 +19,7 @@
         jar="C:\Android\PersonIntro\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         revision="24.0.2"
-        sha1="864e12b5b2b1b70433fc4dd0466fdcdd7b3c1d20">
+        sha1="50bd971a29293957eec013ddd81d010e069d4e82">
         <dex dex="C:\Android\PersonIntro\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_129d2060cbfdcdbad9562f6adbee23f5fbc4851a\classes.dex" />
     </item>
     <item
@@ -156,18 +156,18 @@
         <dex dex="C:\Android\PersonIntro\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.makeramen-roundedimageview-2.2.1_e6f23341de299931f6b0d1d2c0d282233db0a819\classes.dex" />
     </item>
     <item
-        jar="C:\Android\PersonIntro\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        revision="24.0.2"
-        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="C:\Android\PersonIntro\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_c5587f06a02730762b2b6693efd1121d05db9c64\classes.dex" />
-    </item>
-    <item
         jar="C:\Android\PersonIntro\app\build\intermediates\exploded-aar\com.beardedhen\androidbootstrap\2.3.0\jars\classes.jar"
         jumboMode="true"
         revision="24.0.2"
         sha1="1fa232b911d639fca8d5d2f6c5541edcebf4cfee">
         <dex dex="C:\Android\PersonIntro\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.beardedhen-androidbootstrap-2.3.0_9bd89f56b0908bf04f6e27ca00350398abbcc59a\classes.dex" />
+    </item>
+    <item
+        jar="C:\Android\PersonIntro\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\Android\PersonIntro\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_c5587f06a02730762b2b6693efd1121d05db9c64\classes.dex" />
     </item>
     <item
         jar="C:\Android\PersonIntro\app\build\intermediates\exploded-aar\com.mikepenz\fastadapter\1.8.0\jars\classes.jar"
@@ -208,7 +208,7 @@
         jar="C:\Android\PersonIntro\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         revision="24.0.2"
-        sha1="a0347c087910546d76588f34f2b348c08e7426c0">
+        sha1="e34ded9e79931084cf312f7f0b91d0bfb3165815">
         <dex dex="C:\Android\PersonIntro\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_0a4c58d32380a5d621b2718b8e27926d2e48b294\classes.dex" />
     </item>
     <item

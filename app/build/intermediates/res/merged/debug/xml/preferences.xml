@@ -1,35 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
     <com.afollestad.materialdialogs.prefs.MaterialDialogPreference
-            android:dialogIcon="@mipmap/ic_launcher"
-            android:dialogMessage="preference_dialog_messa"
-            android:dialogTitle="preference_dialog_title"
-            android:key="unused_key00"
             android:negativeButtonText="@android:string/cancel"
             android:positiveButtonText="@android:string/ok"
-            android:summary="material_dialog_pref_summary"
-            android:title="material_dialog_pref_title" />
+            android:title="Click Me"
+            android:dialogTitle="COMING"
+            android:dialogMessage="Coming Soon!"
+            />
 
-    <com.afollestad.materialdialogs.prefs.MaterialListPreference
-            android:key="unused_key01"
-            android:persistent="true"
-            android:summary="list_pref_desc"
-            android:title="list_pref_title" />
+    <!--<com.afollestad.materialdialogs.prefs.MaterialListPreference-->
+
+            <!--/>-->
 
     <com.afollestad.materialdialogs.prefs.MaterialMultiSelectListPreference
-            android:key="unused_key02"
-            android:persistent="true"
-            android:summary="multilist_pref_desc"
-            android:title="multilist_pref_title" />
+            />
 
     <com.afollestad.materialdialogs.prefs.MaterialEditTextPreference
-            android:defaultValue="edittext_pref_optionalvalue"
-            android:dialogMessage="optional_dialog_message"
-            android:dialogTitle="edittext_pref_dialogtitle"
-            android:inputType="textPersonName"
-            android:key="unused_key03"
-            android:persistent="true"
-            android:summary="edittext_pref_desc"
-            android:title="edittext_pref_title" />
+            />
 
 </PreferenceScreen>
