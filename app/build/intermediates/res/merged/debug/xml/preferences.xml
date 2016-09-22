@@ -4,8 +4,8 @@
             android:negativeButtonText="@android:string/cancel"
             android:positiveButtonText="@android:string/ok"
             android:title="Click Me"
-            android:dialogTitle="COMING"
-            android:dialogMessage="Coming Soon!"
+            android:dialogTitle="School and studying time, might take a while to update this."
+            android:dialogMessage="Coming Not So Soon!"
             />
 
     <!--<com.afollestad.materialdialogs.prefs.MaterialListPreference-->
