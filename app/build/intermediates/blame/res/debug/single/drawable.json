@@ -1,7 +1,7 @@
 [
     {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\md_selector_dark.xml",
-        "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.0.1\\res\\drawable\\md_selector_dark.xml"
+        "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.0.2\\res\\drawable\\md_selector_dark.xml"
     },
     {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
@@ -9,7 +9,7 @@
     },
     {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\md_btn_selector_dark.xml",
-        "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.0.1\\res\\drawable\\md_btn_selector_dark.xml"
+        "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.0.2\\res\\drawable\\md_btn_selector_dark.xml"
     },
     {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
@@ -33,7 +33,7 @@
     },
     {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\md_btn_selected.xml",
-        "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.0.1\\res\\drawable\\md_btn_selected.xml"
+        "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.0.2\\res\\drawable\\md_btn_selected.xml"
     },
     {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
@@ -73,7 +73,7 @@
     },
     {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\md_btn_selector.xml",
-        "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.0.1\\res\\drawable\\md_btn_selector.xml"
+        "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.0.2\\res\\drawable\\md_btn_selector.xml"
     },
     {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\material_drawer_shadow_top.xml",
@@ -113,7 +113,7 @@
     },
     {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\md_item_selected.xml",
-        "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.0.1\\res\\drawable\\md_item_selected.xml"
+        "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.0.2\\res\\drawable\\md_item_selected.xml"
     },
     {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
@@ -121,7 +121,7 @@
     },
     {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\md_btn_selected_dark.xml",
-        "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.0.1\\res\\drawable\\md_btn_selected_dark.xml"
+        "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.0.2\\res\\drawable\\md_btn_selected_dark.xml"
     },
     {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
@@ -133,7 +133,7 @@
     },
     {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\md_item_selected_dark.xml",
-        "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.0.1\\res\\drawable\\md_item_selected_dark.xml"
+        "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.0.2\\res\\drawable\\md_item_selected_dark.xml"
     },
     {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
@@ -189,11 +189,11 @@
     },
     {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\md_selector.xml",
-        "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.0.1\\res\\drawable\\md_selector.xml"
+        "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.0.2\\res\\drawable\\md_selector.xml"
     },
     {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\md_transparent.xml",
-        "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.0.1\\res\\drawable\\md_transparent.xml"
+        "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.0.2\\res\\drawable\\md_transparent.xml"
     },
     {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
@@ -205,6 +205,6 @@
     },
     {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\gray_circle.xml",
-        "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\commons\\0.9.0.1\\res\\drawable\\gray_circle.xml"
+        "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\commons\\0.9.0.2\\res\\drawable\\gray_circle.xml"
     }
 ]

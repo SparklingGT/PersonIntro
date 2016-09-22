@@ -12,12 +12,12 @@
         "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\5.6.0\\res\\layout\\material_drawer_item_mini_profile.xml"
     },
     {
-        "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
-        "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\notification_template_part_time.xml"
+        "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_simplelist_item.xml",
+        "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\commons\\0.9.0.2\\res\\layout\\md_simplelist_item.xml"
     },
     {
-        "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_simplelist_item.xml",
-        "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\commons\\0.9.0.1\\res\\layout\\md_simplelist_item.xml"
+        "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\notification_template_part_time.xml"
     },
     {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
@@ -25,7 +25,7 @@
     },
     {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_listitem_multichoice.xml",
-        "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.0.1\\res\\layout\\md_listitem_multichoice.xml"
+        "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.0.2\\res\\layout\\md_listitem_multichoice.xml"
     },
     {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_header.xml",
@@ -33,19 +33,19 @@
     },
     {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_stub_colorchooser_custom.xml",
-        "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\commons\\0.9.0.1\\res\\layout\\md_stub_colorchooser_custom.xml"
+        "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\commons\\0.9.0.2\\res\\layout\\md_stub_colorchooser_custom.xml"
     },
     {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_compact_header.xml",
         "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\5.6.0\\res\\layout\\material_drawer_compact_header.xml"
     },
     {
-        "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
-        "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
-    },
-    {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
         "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
     },
     {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_toggle.xml",
@@ -61,11 +61,11 @@
     },
     {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_listitem.xml",
-        "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.0.1\\res\\layout\\md_listitem.xml"
+        "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.0.2\\res\\layout\\md_listitem.xml"
     },
     {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_basic_check.xml",
-        "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.0.1\\res\\layout\\md_dialog_basic_check.xml"
+        "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.0.2\\res\\layout\\md_dialog_basic_check.xml"
     },
     {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_profile.xml",
@@ -77,7 +77,7 @@
     },
     {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_stub_colorchooser_grid.xml",
-        "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\commons\\0.9.0.1\\res\\layout\\md_stub_colorchooser_grid.xml"
+        "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\commons\\0.9.0.2\\res\\layout\\md_stub_colorchooser_grid.xml"
     },
     {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_photo.xml",
@@ -85,7 +85,7 @@
     },
     {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_progress_indeterminate_horizontal.xml",
-        "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.0.1\\res\\layout\\md_dialog_progress_indeterminate_horizontal.xml"
+        "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.0.2\\res\\layout\\md_dialog_progress_indeterminate_horizontal.xml"
     },
     {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
@@ -101,7 +101,7 @@
     },
     {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_stub_inputpref.xml",
-        "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\commons\\0.9.0.1\\res\\layout\\md_stub_inputpref.xml"
+        "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\commons\\0.9.0.2\\res\\layout\\md_stub_inputpref.xml"
     },
     {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_fits_not.xml",
@@ -129,7 +129,7 @@
     },
     {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_stub_actionbuttons.xml",
-        "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.0.1\\res\\layout\\md_stub_actionbuttons.xml"
+        "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.0.2\\res\\layout\\md_stub_actionbuttons.xml"
     },
     {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_person_list.xml",
@@ -141,7 +141,7 @@
     },
     {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_stub_titleframe_lesspadding.xml",
-        "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.0.1\\res\\layout\\md_stub_titleframe_lesspadding.xml"
+        "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.0.2\\res\\layout\\md_stub_titleframe_lesspadding.xml"
     },
     {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setting.xml",
@@ -157,7 +157,7 @@
     },
     {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_list_check.xml",
-        "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.0.1\\res\\layout\\md_dialog_list_check.xml"
+        "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.0.2\\res\\layout\\md_dialog_list_check.xml"
     },
     {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_recycler_view.xml",
@@ -169,7 +169,7 @@
     },
     {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_custom.xml",
-        "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.0.1\\res\\layout\\md_dialog_custom.xml"
+        "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.0.2\\res\\layout\\md_dialog_custom.xml"
     },
     {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
@@ -177,7 +177,7 @@
     },
     {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_input_check.xml",
-        "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.0.1\\res\\layout\\md_dialog_input_check.xml"
+        "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.0.2\\res\\layout\\md_dialog_input_check.xml"
     },
     {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
@@ -213,7 +213,7 @@
     },
     {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_list.xml",
-        "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.0.1\\res\\layout\\md_dialog_list.xml"
+        "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.0.2\\res\\layout\\md_dialog_list.xml"
     },
     {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
@@ -233,7 +233,7 @@
     },
     {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_progress_indeterminate.xml",
-        "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.0.1\\res\\layout\\md_dialog_progress_indeterminate.xml"
+        "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.0.2\\res\\layout\\md_dialog_progress_indeterminate.xml"
     },
     {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
@@ -241,7 +241,7 @@
     },
     {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_progress.xml",
-        "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.0.1\\res\\layout\\md_dialog_progress.xml"
+        "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.0.2\\res\\layout\\md_dialog_progress.xml"
     },
     {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_switch.xml",
@@ -265,7 +265,7 @@
     },
     {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_basic.xml",
-        "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.0.1\\res\\layout\\md_dialog_basic.xml"
+        "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.0.2\\res\\layout\\md_dialog_basic.xml"
     },
     {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_primary.xml",
@@ -285,7 +285,7 @@
     },
     {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_input.xml",
-        "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.0.1\\res\\layout\\md_dialog_input.xml"
+        "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.0.2\\res\\layout\\md_dialog_input.xml"
     },
     {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
@@ -313,7 +313,7 @@
     },
     {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_stub_titleframe.xml",
-        "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.0.1\\res\\layout\\md_stub_titleframe.xml"
+        "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.0.2\\res\\layout\\md_stub_titleframe.xml"
     },
     {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
@@ -345,7 +345,7 @@
     },
     {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_colorchooser.xml",
-        "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\commons\\0.9.0.1\\res\\layout\\md_dialog_colorchooser.xml"
+        "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\commons\\0.9.0.2\\res\\layout\\md_dialog_colorchooser.xml"
     },
     {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
@@ -381,11 +381,11 @@
     },
     {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_preference_custom.xml",
-        "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\commons\\0.9.0.1\\res\\layout\\md_preference_custom.xml"
+        "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\commons\\0.9.0.2\\res\\layout\\md_preference_custom.xml"
     },
     {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_listitem_singlechoice.xml",
-        "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.0.1\\res\\layout\\md_listitem_singlechoice.xml"
+        "source": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.0.2\\res\\layout\\md_listitem_singlechoice.xml"
     },
     {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
