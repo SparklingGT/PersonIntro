@@ -57,46 +57,83 @@
     </style>
 
 
-    <style name="RippleRed_Home" parent="AppTheme">
+
+    <!--set the ripple color-->
+    <style name="RippleRed" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="android:colorControlHighlight">@color/ripple_red</item>
         <item name="colorControlHighlight">@color/ripple_red</item>
     </style>
-    <style name="RippleGreen_Home" parent="AppTheme">
+    <style name="RippleGreen" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="android:colorControlHighlight">@color/ripple_green</item>
         <item name="colorControlHighlight">@color/ripple_green</item>
     </style>
-    <style name="RipplePurple_Home" parent="AppTheme">
+    <style name="RipplePurple" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="android:colorControlHighlight">@color/ripple_purple</item>
         <item name="colorControlHighlight">@color/ripple_purple</item>
     </style>
-
-
-    <style name="RippleRed_Card" parent="CardTheme">
-        <item name="android:colorControlHighlight">@color/ripple_red</item>
-        <item name="colorControlHighlight">@color/ripple_red</item>
-    </style>
-    <style name="RippleGreen_Card" parent="CardTheme">
-        <item name="android:colorControlHighlight">@color/ripple_green</item>
-        <item name="colorControlHighlight">@color/ripple_green</item>
-    </style>
-    <style name="RipplePurple_Card" parent="CardTheme">
-        <item name="android:colorControlHighlight">@color/ripple_purple</item>
-        <item name="colorControlHighlight">@color/ripple_purple</item>
+    <style name="RippleBlue" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:colorControlHighlight">@color/ripple_blue</item>
+        <item name="colorControlHighlight">@color/ripple_blue</item>
     </style>
 
 
-    <style name="RippleRed_Prefs" parent="PrefsTheme">
-        <item name="android:colorControlHighlight">@color/ripple_red</item>
-        <item name="colorControlHighlight">@color/ripple_red</item>
-    </style>
-    <style name="RippleGreen_Prefs" parent="PrefsTheme">
-        <item name="android:colorControlHighlight">@color/ripple_green</item>
-        <item name="colorControlHighlight">@color/ripple_green</item>
-    </style>
-    <style name="RipplePurple_Prefs" parent="PrefsTheme">
-        <item name="android:colorControlHighlight">@color/ripple_purple</item>
-        <item name="colorControlHighlight">@color/ripple_purple</item>
-    </style>
+
+    <!--<style name="RippleRed_Card" parent="CardTheme">-->
+        <!--<item name="android:colorControlHighlight">@color/ripple_red</item>-->
+        <!--<item name="colorControlHighlight">@color/ripple_red</item>-->
+    <!--</style>-->
+    <!--<style name="RippleGreen_Card" parent="CardTheme">-->
+        <!--<item name="android:colorControlHighlight">@color/ripple_green</item>-->
+        <!--<item name="colorControlHighlight">@color/ripple_green</item>-->
+    <!--</style>-->
+    <!--<style name="RipplePurple_Card" parent="CardTheme">-->
+        <!--<item name="android:colorControlHighlight">@color/ripple_purple</item>-->
+        <!--<item name="colorControlHighlight">@color/ripple_purple</item>-->
+    <!--</style>-->
+    <!--<style name="RippleBlue_Card" parent="Theme.AppCompat.Light.NoActionBar">-->
+        <!--<item name="android:colorControlHighlight">@color/ripple_blue</item>-->
+        <!--<item name="colorControlHighlight">@color/ripple_blue</item>-->
+    <!--</style>-->
+
+
+
+    <!--<style name="RippleRed_Prefs" parent="PrefsTheme">-->
+        <!--<item name="android:colorControlHighlight">@color/ripple_red</item>-->
+        <!--<item name="colorControlHighlight">@color/ripple_red</item>-->
+    <!--</style>-->
+    <!--<style name="RippleGreen_Prefs" parent="PrefsTheme">-->
+        <!--<item name="android:colorControlHighlight">@color/ripple_green</item>-->
+        <!--<item name="colorControlHighlight">@color/ripple_green</item>-->
+    <!--</style>-->
+    <!--<style name="RipplePurple_Prefs" parent="PrefsTheme">-->
+        <!--<item name="android:colorControlHighlight">@color/ripple_purple</item>-->
+        <!--<item name="colorControlHighlight">@color/ripple_purple</item>-->
+    <!--</style>-->
+    <!--<style name="RippleBlue_Prefs" parent="Theme.AppCompat.Light.NoActionBar">-->
+        <!--<item name="android:colorControlHighlight">@color/ripple_blue</item>-->
+        <!--<item name="colorControlHighlight">@color/ripple_blue</item>-->
+    <!--</style>-->
+
+
+
+    <!--<style name="RippleRed_License" parent="PrefsTheme">-->
+        <!--<item name="android:colorControlHighlight">@color/ripple_red</item>-->
+        <!--<item name="colorControlHighlight">@color/ripple_red</item>-->
+    <!--</style>-->
+    <!--<style name="RippleGreen_License" parent="PrefsTheme">-->
+        <!--<item name="android:colorControlHighlight">@color/ripple_green</item>-->
+        <!--<item name="colorControlHighlight">@color/ripple_green</item>-->
+    <!--</style>-->
+    <!--<style name="RipplePurple_License" parent="PrefsTheme">-->
+        <!--<item name="android:colorControlHighlight">@color/ripple_purple</item>-->
+        <!--<item name="colorControlHighlight">@color/ripple_purple</item>-->
+    <!--</style>-->
+    <!--<style name="RippleBlue_License" parent="Theme.AppCompat.Light.NoActionBar">-->
+        <!--<item name="android:colorControlHighlight">@color/ripple_blue</item>-->
+        <!--<item name="colorControlHighlight">@color/ripple_blue</item>-->
+    <!--</style>-->
+
+
 
 
     <!--Reserver-->

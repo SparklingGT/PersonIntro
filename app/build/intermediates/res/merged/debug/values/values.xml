@@ -2139,6 +2139,7 @@
     <color name="dim_foreground_material_dark">#ffbebebe</color>
     <color name="dim_foreground_material_light">#ff323232</color>
     <color name="drawer_background">#44000000</color>
+    <color name="drawer_selected_blue">#702196F3</color>
     <color name="drawer_selected_green">#7050a300</color>
     <color name="drawer_selected_purple">#708459ab</color>
     <color name="drawer_selected_red">#70B20000</color>
@@ -2151,6 +2152,8 @@
     <color name="hint_foreground_material_light">@color/bright_foreground_disabled_material_light</color>
     <color name="icon">#88cccccc</color>
     <color name="item_text_drawer">#eeeeee</color>
+    <color name="licensePrimary">#2196F3</color>
+    <color name="licensePrimaryDark">#1a78c2</color>
     <color name="material_blue_grey_800">#ff37474f</color>
     <color name="material_blue_grey_900">#ff263238</color>
     <color name="material_blue_grey_950">#ff21272b</color>
@@ -2488,11 +2491,12 @@
     <color name="primary_text_default_material_light">#de000000</color>
     <color name="primary_text_disabled_material_dark">#4Dffffff</color>
     <color name="primary_text_disabled_material_light">#39000000</color>
-    <color name="ripple_green">#6061ac19</color>
+    <color name="ripple_blue">#9037a0f4</color>
+    <color name="ripple_green">#9061ac19</color>
     <color name="ripple_material_dark">#33ffffff</color>
     <color name="ripple_material_light">#1f000000</color>
-    <color name="ripple_purple">#609069b3</color>
-    <color name="ripple_red">#60b91919</color>
+    <color name="ripple_purple">#909069b3</color>
+    <color name="ripple_red">#90b91919</color>
     <color name="secondary_text_default_material_dark">#b3ffffff</color>
     <color name="secondary_text_default_material_light">#8a000000</color>
     <color name="secondary_text_disabled_material_dark">#36ffffff</color>
@@ -3204,7 +3208,7 @@
     <string name="credit_dialog_content">1) Stack Overflow
         \n2) <i>\"Android Programming: The Big Nerd Ranch Guide (2nd Edition)\"</i>
         \n3) gitHub (libraries)
-        \n4) IntelliJ
+        \n4) IntelliJ, Android Studio
         \n5) and so on</string>
     <string name="credit_dialog_title">All Credit Goes To</string>
     <string name="define_AndroidIconics">year;owner</string>
@@ -4157,11 +4161,18 @@
     <string name="gmd_zoom_in">gmd_zoom_in</string>
     <string name="gmd_zoom_out">gmd_zoom_out</string>
     <string name="gmd_zoom_out_map">gmd_zoom_out_map</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="hint">Long Click</string>
     <string name="hint_association">Who associates with this person?</string>
     <string name="hint_intro">Long tap to enter the intro</string>
     <string name="hint_note">Tap here to enter side note</string>
     <string name="image_description">Selfie</string>
+    <string name="item_about">About</string>
+    <string name="item_credit">Credit</string>
+    <string name="item_github">gitHub</string>
+    <string name="item_home">Home</string>
+    <string name="item_license">License</string>
+    <string name="item_setting">Setting</string>
     <string name="library_AndroidIconics_author">Mike Penz</string>
     <string name="library_AndroidIconics_authorWebsite">http://mikepenz.com/</string>
     <string name="library_AndroidIconics_isOpenSource">true</string>
@@ -4240,6 +4251,13 @@
     <string name="library_roundedimageview_libraryWebsite">https://github.com/vinc3m1/RoundedImageView</string>
     <string name="library_roundedimageview_licenseId">apache_2_0</string>
     <string name="library_roundedimageview_repositoryLink">https://github.com/vinc3m1/RoundedImageView.git</string>
+    <string name="link_android_bootstrap"><a href="https://github.com/Bearded-Hen/Android-Bootstrap">GitHub</a></string>
+    <string name="link_android_iconics"><a href="https://github.com/mikepenz/Android-Iconics">GitHub</a></string>
+    <string name="link_circle_image_view"><a href="https://github.com/hdodenhof/CircleImageView">GitHub</a></string>
+    <string name="link_material_dialog"><a href="https://github.com/afollestad/material-dialogs">GitHub</a></string>
+    <string name="link_material_drawer"><a href="https://github.com/mikepenz/MaterialDrawer">GitHub</a></string>
+    <string name="link_photo_view"><a href="https://github.com/chrisbanes/PhotoView">GitHub</a></string>
+    <string name="link_rounded_image_view"><a href="https://github.com/vinc3m1/RoundedImageView">GitHub</a></string>
     <string name="material_drawer_close">Close</string>
     <string name="material_drawer_open">Open</string>
     <string name="md_back_label">Back</string>
@@ -4262,6 +4280,13 @@
     <string name="search_menu_title">Search</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="time_picker_back">BACK</string>
+    <string name="title_android_bootstrap">Android-Bootstrap</string>
+    <string name="title_android_iconics">Android-Iconics</string>
+    <string name="title_circle_image_view">CircleImageView</string>
+    <string name="title_material_dialog">material-dialogs</string>
+    <string name="title_material_drawer">MaterialDrawer</string>
+    <string name="title_photo_view">PhotoView</string>
+    <string name="title_rounded_image_view">RoundedImageView</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>
@@ -5869,39 +5894,19 @@
         <!--this somehow fix the prefs ripple issue.... why? -->
         <!-- TODO : Ripple color in toolbar drop down menu  -->
     </style>
-    <style name="RippleGreen_Card" parent="CardTheme">
+    <style name="RippleBlue" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:colorControlHighlight">@color/ripple_blue</item>
+        <item name="colorControlHighlight">@color/ripple_blue</item>
+    </style>
+    <style name="RippleGreen" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="android:colorControlHighlight">@color/ripple_green</item>
         <item name="colorControlHighlight">@color/ripple_green</item>
     </style>
-    <style name="RippleGreen_Home" parent="AppTheme">
-        <item name="android:colorControlHighlight">@color/ripple_green</item>
-        <item name="colorControlHighlight">@color/ripple_green</item>
-    </style>
-    <style name="RippleGreen_Prefs" parent="PrefsTheme">
-        <item name="android:colorControlHighlight">@color/ripple_green</item>
-        <item name="colorControlHighlight">@color/ripple_green</item>
-    </style>
-    <style name="RipplePurple_Card" parent="CardTheme">
+    <style name="RipplePurple" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="android:colorControlHighlight">@color/ripple_purple</item>
         <item name="colorControlHighlight">@color/ripple_purple</item>
     </style>
-    <style name="RipplePurple_Home" parent="AppTheme">
-        <item name="android:colorControlHighlight">@color/ripple_purple</item>
-        <item name="colorControlHighlight">@color/ripple_purple</item>
-    </style>
-    <style name="RipplePurple_Prefs" parent="PrefsTheme">
-        <item name="android:colorControlHighlight">@color/ripple_purple</item>
-        <item name="colorControlHighlight">@color/ripple_purple</item>
-    </style>
-    <style name="RippleRed_Card" parent="CardTheme">
-        <item name="android:colorControlHighlight">@color/ripple_red</item>
-        <item name="colorControlHighlight">@color/ripple_red</item>
-    </style>
-    <style name="RippleRed_Home" parent="AppTheme">
-        <item name="android:colorControlHighlight">@color/ripple_red</item>
-        <item name="colorControlHighlight">@color/ripple_red</item>
-    </style>
-    <style name="RippleRed_Prefs" parent="PrefsTheme">
+    <style name="RippleRed" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="android:colorControlHighlight">@color/ripple_red</item>
         <item name="colorControlHighlight">@color/ripple_red</item>
     </style>

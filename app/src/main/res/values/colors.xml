@@ -6,23 +6,31 @@
     <color name="PrimaryDark">#489200</color>
     <color name="prefsPrimary">#8459ab</color>
     <color name="prefsPrimaryDark">#663096</color>
+    <color name="licensePrimary">#2196F3</color>
+    <color name="licensePrimaryDark">#1a78c2</color>
     
     <color name="colorAccent">#FF4081</color>
 
     <color name="drawer_selected_red">#70B20000</color>
     <color name="drawer_selected_green">#7050a300</color>
     <color name="drawer_selected_purple">#708459ab</color>
+    <color name="drawer_selected_blue">#702196F3</color>
+
     <color name="drawer_background">#44000000</color>
+
     <color name="material_drawer_divider">#33FFFFFF</color>
+
     <color name="icon">#88cccccc</color>
+
     <color name="item_text_drawer">#eeeeee</color>
 
     <color name="drawer_toggle">#e5e5e5</color>
 
     <color name="background">#fafafa</color>
 
-    <color name="ripple_red">#60b91919</color>
-    <color name="ripple_green">#6061ac19</color>
-    <color name="ripple_purple">#609069b3</color>
+    <color name="ripple_red">#90b91919</color>
+    <color name="ripple_green">#9061ac19</color>
+    <color name="ripple_purple">#909069b3</color>
+    <color name="ripple_blue">#9037a0f4</color>
 
 </resources>

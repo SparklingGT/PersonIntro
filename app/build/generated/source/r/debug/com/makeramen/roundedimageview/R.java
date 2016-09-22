@@ -22,21 +22,21 @@ public final class R {
 		public static final int riv_tile_mode_y = 0x7f01015e;
 	}
 	public static final class id {
-		public static final int clamp = 0x7f0e0812;
-		public static final int mirror = 0x7f0e0813;
-		public static final int repeat = 0x7f0e0814;
+		public static final int clamp = 0x7f0f0812;
+		public static final int mirror = 0x7f0f0813;
+		public static final int repeat = 0x7f0f0814;
 	}
 	public static final class string {
-		public static final int define_roundedimageview = 0x7f070031;
-		public static final int library_roundedimageview_author = 0x7f07041a;
-		public static final int library_roundedimageview_authorWebsite = 0x7f07041b;
-		public static final int library_roundedimageview_isOpenSource = 0x7f07041c;
-		public static final int library_roundedimageview_libraryDescription = 0x7f07041d;
-		public static final int library_roundedimageview_libraryName = 0x7f07041e;
-		public static final int library_roundedimageview_libraryVersion = 0x7f07041f;
-		public static final int library_roundedimageview_libraryWebsite = 0x7f070420;
-		public static final int library_roundedimageview_licenseId = 0x7f070421;
-		public static final int library_roundedimageview_repositoryLink = 0x7f070422;
+		public static final int define_roundedimageview = 0x7f080031;
+		public static final int library_roundedimageview_author = 0x7f080421;
+		public static final int library_roundedimageview_authorWebsite = 0x7f080422;
+		public static final int library_roundedimageview_isOpenSource = 0x7f080423;
+		public static final int library_roundedimageview_libraryDescription = 0x7f080424;
+		public static final int library_roundedimageview_libraryName = 0x7f080425;
+		public static final int library_roundedimageview_libraryVersion = 0x7f080426;
+		public static final int library_roundedimageview_libraryWebsite = 0x7f080427;
+		public static final int library_roundedimageview_licenseId = 0x7f080428;
+		public static final int library_roundedimageview_repositoryLink = 0x7f080429;
 	}
 	public static final class styleable {
 		public static final int[] RoundedImageView = { 0x0101011d, 0x7f010153, 0x7f010154, 0x7f010155, 0x7f010156, 0x7f010157, 0x7f010158, 0x7f010159, 0x7f01015a, 0x7f01015b, 0x7f01015c, 0x7f01015d, 0x7f01015e };

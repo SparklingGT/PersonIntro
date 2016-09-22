@@ -27,14 +27,22 @@ public class LayoutUtils
     private static final String ABOUT_DIALOG_TAG = "aboutDialog";
     private static final String CREDIT_DIALOG_TAG = "creditDialog";
 
+    // from where?
     public static final int HOME = 3258;
     public static final int CARD = 23579;
     public static final int PREFS = 23;
+    public static final int LICENSE = 1111;
+
+    // color theme
     public static final int RED = 342;
     public static final int GREEN = 4;
     public static final int PURPLE = 11;
+    public static final int BLUE = 12415;
+
+    // identifier
     public static final long IDENTIFIER_HOME = 37529;
     public static final long IDENTIFIER_PREFS = 329;
+    public static final long IDENTIFIER_LICENSE = 111;
     public static final long IDENTIFIER_DIVIDER = 357;
 
     private static PrimaryDrawerItem itemHome = new PrimaryDrawerItem()
@@ -44,7 +52,7 @@ public class LayoutUtils
             .withIconColorRes(R.color.icon)
             .withSelectedIconColorRes(R.color.icon)
             .withIcon(GoogleMaterial.Icon.gmd_home)
-            .withName("Home")
+            .withName(R.string.item_home)
             .withTextColorRes(R.color.item_text_drawer)
             .withSelectedTextColorRes(R.color.item_text_drawer);
 
@@ -56,7 +64,7 @@ public class LayoutUtils
             .withIconColorRes(R.color.icon)
             .withSelectedIconColorRes(R.color.icon)
             .withIcon(GoogleMaterial.Icon.gmd_settings)
-            .withName("Setting")
+            .withName(R.string.item_setting)
             .withTextColorRes(R.color.item_text_drawer)
             .withSelectedTextColorRes(R.color.item_text_drawer);
 
@@ -65,7 +73,7 @@ public class LayoutUtils
             .withIconColorRes(R.color.icon)
             .withSelectedIconColorRes(R.color.icon)
             .withIcon(GoogleMaterial.Icon.gmd_loyalty)
-            .withName("Credit")
+            .withName(R.string.item_credit)
             .withTextColorRes(R.color.item_text_drawer)
             .withSelectedTextColorRes(R.color.item_text_drawer)
             .withSelectable(false)
@@ -82,7 +90,7 @@ public class LayoutUtils
             .withIconColorRes(R.color.icon)
             .withSelectedIconColorRes(R.color.icon)
             .withIcon(GoogleMaterial.Icon.gmd_info_outline)
-            .withName("About")
+            .withName(R.string.item_about)
             .withTextColorRes(R.color.item_text_drawer)
             .withSelectedTextColorRes(R.color.item_text_drawer)
             .withSelectable(false)
@@ -99,10 +107,21 @@ public class LayoutUtils
             .withIconColorRes(R.color.icon)
             .withSelectedIconColorRes(R.color.icon)
             .withIcon(GoogleMaterial.Icon.gmd_call_made)
-            .withName("gitHub")
+            .withName(R.string.item_github)
             .withTextColorRes(R.color.item_text_drawer)
             .withSelectedTextColorRes(R.color.item_text_drawer)
             .withSelectable(false);
+
+    private static PrimaryDrawerItem itemLicense = new PrimaryDrawerItem()
+            .withDisabledIconColorRes(R.color.icon)
+            .withDisabledTextColorRes(R.color.item_text_drawer)
+            .withIdentifier(IDENTIFIER_LICENSE)
+            .withIconColorRes(R.color.icon)
+            .withSelectedIconColorRes(R.color.icon)
+            .withIcon(GoogleMaterial.Icon.gmd_favorite)
+            .withName(R.string.item_license)
+            .withTextColorRes(R.color.item_text_drawer)
+            .withSelectedTextColorRes(R.color.item_text_drawer);
 
     private static DividerDrawerItem divider = new DividerDrawerItem()
             .withIdentifier(IDENTIFIER_DIVIDER)
@@ -179,7 +198,7 @@ public class LayoutUtils
     public static Drawer setupDrawer(Toolbar toolbar, final int placeHolder, final Context context) {
 
         Drawer drawer = new DrawerBuilder((Activity)context)
-                .addDrawerItems(itemHome, divider, itemSetting, divider, itemCredit, itemAbout, itemGitHub)
+                .addDrawerItems(itemHome, divider, itemSetting, divider, itemCredit, itemAbout, itemGitHub, divider, itemLicense)
                 .withToolbar(toolbar)
                 .withActionBarDrawerToggle(true)
                 .withActionBarDrawerToggleAnimated(true)
@@ -220,62 +239,90 @@ public class LayoutUtils
             case HOME:
                 itemHome.withEnabled(false);
                 itemSetting.withEnabled(true);
+                itemLicense.withEnabled(true);
                 break;
             case PREFS:
                 itemHome.withEnabled(true);
                 itemSetting.withEnabled(false);
+                itemLicense.withEnabled(true);
                 break;
             case CARD:
                 itemHome.withEnabled(true);
                 itemSetting.withEnabled(true);
+                itemLicense.withEnabled(true);
+                break;
+            case LICENSE:
+                itemHome.withEnabled(true);
+                itemSetting.withEnabled(true);
+                itemLicense.withEnabled(false);
                 break;
         }
 
     }
 
-    public static void setRippleColor(int color, int fromWhere, Context context) {
+    public static void setRippleColor(int color, Context context) {
         Resources.Theme theme = context.getTheme();
-        switch (fromWhere) {
-            case HOME:
-                switch (color) {
-                    case RED:
-                        theme.applyStyle(R.style.RippleRed_Home, true);
-                        break;
-                    case GREEN:
-                        theme.applyStyle(R.style.RippleGreen_Home, true);
-                        break;
-                    case PURPLE:
-                        theme.applyStyle(R.style.RipplePurple_Home, true);
-                        break;
-                }
+        switch (color) {
+            case RED:
+                theme.applyStyle(R.style.RippleRed, true);
                 break;
-            case CARD:
-                switch (color) {
-                    case RED:
-                        theme.applyStyle(R.style.RippleRed_Card, true);
-                        break;
-                    case GREEN:
-                        theme.applyStyle(R.style.RippleGreen_Card, true);
-                        break;
-                    case PURPLE:
-                        theme.applyStyle(R.style.RipplePurple_Card, true);
-                        break;
-                }
+            case GREEN:
+                theme.applyStyle(R.style.RippleGreen, true);
                 break;
-            case PREFS:
-                switch (color) {
-                    case RED:
-                        theme.applyStyle(R.style.RippleRed_Prefs, true);
-                        break;
-                    case GREEN:
-                        theme.applyStyle(R.style.RippleGreen_Prefs, true);
-                        break;
-                    case PURPLE:
-                        theme.applyStyle(R.style.RipplePurple_Prefs, true);
-                        break;
-                }
+            case PURPLE:
+                theme.applyStyle(R.style.RipplePurple, true);
+                break;
+            case BLUE:
+                theme.applyStyle(R.style.RippleBlue, true);
                 break;
         }
+//        switch (fromWhere) {
+//            case HOME:
+//                switch (color) {
+//                    case RED:
+//                        theme.applyStyle(R.style.RippleRed, true);
+//                        break;
+//                    case GREEN:
+//                        theme.applyStyle(R.style.RippleGreen, true);
+//                        break;
+//                    case PURPLE:
+//                        theme.applyStyle(R.style.RipplePurple, true);
+//                        break;
+//                    case BLUE:
+//                        theme.applyStyle(R.style.RippleBlue, true);
+//                        break;
+//                }
+//                break;
+//            case CARD:
+//                switch (color) {
+//                    case RED:
+//                        theme.applyStyle(R.style.RippleRed, true);
+//                        break;
+//                    case GREEN:
+//                        theme.applyStyle(R.style.RippleGreen, true);
+//                        break;
+//                    case PURPLE:
+//                        theme.applyStyle(R.style.RipplePurple, true);
+//                        break;
+//                    case BLUE:
+//                        theme.applyStyle(R.style.RippleBlue, true);
+//                        break;
+//                }
+//                break;
+//            case PREFS:
+//                switch (color) {
+//                    case RED:
+//                        theme.applyStyle(R.style.RippleRed, true);
+//                        break;
+//                    case GREEN:
+//                        theme.applyStyle(R.style.RippleGreen, true);
+//                        break;
+//                    case PURPLE:
+//                        theme.applyStyle(R.style.RipplePurple, true);
+//                        break;
+//                }
+//                break;
+//        }
 
     }
 }

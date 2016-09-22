@@ -47,7 +47,7 @@ public class SettingActivity extends AppCompatActivity
         // call setSelection before setDrawerBehavior
 
         LayoutUtils.setDrawerBehavior(LayoutUtils.PURPLE, LayoutUtils.PREFS);
-        LayoutUtils.setRippleColor(LayoutUtils.PURPLE, LayoutUtils.PREFS, this);
+        LayoutUtils.setRippleColor(LayoutUtils.PURPLE, this);
 
     }
 
