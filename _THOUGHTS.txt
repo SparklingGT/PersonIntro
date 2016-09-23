@@ -1,0 +1,41 @@
+File Created on 23/09/16.
+
+////////////////////////////////////////////////////////////////////////////
+Here are some thoughts that I have during developing this practice-only app.
+////////////////////////////////////////////////////////////////////////////
+
+
+From Day 1 to Day 12 :
+
+ It is taking longer than I expected.
+ Since I am just a newbie in Android world (couple weeks in),
+ plus I have no previous experience in writing any sort of tool, 
+ I guess some delay is expected.
+ -----------------------------------------
+
+ Making progress growing harder when the project getting larger.
+ I start to realize the need to separate my .java files into packages,
+ so I started using public method when it seems might be neccessary,
+ but I guess it is okay to go like this for a little longer.
+ -----------------------------------------
+
+ Although, the requirement I set has not yet fulfilled, but I feel like
+ I've already applied everything that I learned from the beginning ~ 2nd app finished (book).
+ Time to stop and doing some more studying.... maybe...
+ -----------------------------------------
+
+ Exam and School is coming, hate to do this, but I guess it is about time to have a short break.
+ -----------------------------------------
+
+ Exam passed~, short after that, my first day school... 
+ During my school day, I accidentally saw that one of the apps in my phone
+ actually lists all the libraries that they're using to develop this app.
+ I might do that as well, I thought.
+ -----------------------------------------
+
+ Okay, I've done it, add all the libraries info into my app...
+ But ... I think the way I did it is EXTREMELY ungraceful. 
+ It's time to do some REAL study on JAVA and ANDROID....
+
+ School will keep me busy too, I guess I have to leave this app here for a while then...
+ -----------------------------------------

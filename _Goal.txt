@@ -1,6 +1,6 @@
 ************************                ***************************
 *                     ***              **                         **
-* Updated on 16/09/19 ****            ***    Past due by 1 day    ***
+* Updated on 16/09/19 ****            ***    Past due by 4 day    ***
 *                     ***              **                         **
 ************************                ***************************
 
@@ -43,4 +43,3 @@ Optional:
 8) New Section : Relationship w/ others, choose unit either from contact or from other cards. (Not yet)
 9) Traditional Chinese Translation. (Not yet)
 10) Additional info such as : Country, Religion, Interests, and so on. (Not yet)
-11) Code Coverage ?! (Not yet)

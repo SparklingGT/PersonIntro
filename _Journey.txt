@@ -34,3 +34,14 @@ Day 7:
 Day 8:
 1) Add two dialogs.
 2) Fix a bug.
+
+Day 9:
+Day 10:
+
+Day 11:
+1) Clean up some codes.
+2) Rewrite some structures.
+3) Change ripple color's transparency.
+
+Day 12:
+1) Add open-sources licences part.

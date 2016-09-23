@@ -74,3 +74,25 @@ Day 8 (19/09/16) :
 
 1) [ADD] Drawer item "Credit" and "About" now has something.
 2) [FIX] Fix a bug that causes app to crash when pressing on the second item of the preferences list.
+
+
+Day 9 (20/09/16):
+Day 10 (21/09/16):
+
+
+Day 11 (22/09/16):
+
+1) [ADD&CHANGE] Rewrite some structures and prepare for some new stuff.
+2) [CHANGE] Make ripple color less transparent.
+2) [CLEAN] Clean up some unnesscary codes.
+
+
+Day 12 (23/09/16):
+
+1) [ADD] Add open-sources licenses, name, link.
+2) [ADD] Make a drawer for LicenseActivity.
+3) [ADD] Make a toolbar for LicenseActivity.
+4) [UI] Make LicenseActivity theme blue.
+5) [UI] Add a styled scrollbar to LicenseFragment.
+6) [CLEAN] Clean up some forgotten codes.
+7) [FIX] Fix some English grammar, hopefully.
