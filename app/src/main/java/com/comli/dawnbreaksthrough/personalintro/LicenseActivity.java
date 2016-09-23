@@ -24,10 +24,12 @@ public class LicenseActivity extends OriginActivity
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setTheme(R.style.LicenseTheme);
         setContentView(R.layout.activity_license);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar_license);
         setSupportActionBar(toolbar);
+        getSupportActionBar().setTitle("Open-source Licenses");
 
         mDrawer = LayoutUtils.setupDrawer(toolbar, R.id.drawer_layout_license, this);
 

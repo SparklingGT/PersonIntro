@@ -90,7 +90,7 @@ public class BasicDialog extends DialogFragment
         // this would strip the style off.
 
 //        dialog.setContent(Html.fromHtml(getString(content)));
-        // Use <!CDATA[[ content goes in here... ]]>
+        // Use <![CDATA[ content goes in here... ]]>
 
         dialog.setContent(getText(content));
         // this keeps the style.

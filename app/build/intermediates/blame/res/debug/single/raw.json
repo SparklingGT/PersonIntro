@@ -28,8 +28,8 @@
         "source": "C:\\Android\\PersonIntro\\app\\src\\main\\res\\raw\\c_iconics_1.txt"
     },
     {
-        "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\raw\\b_circle_image_view_5.txt",
-        "source": "C:\\Android\\PersonIntro\\app\\src\\main\\res\\raw\\b_circle_image_view_5.txt"
+        "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\raw\\d_circle_image_view_6.txt",
+        "source": "C:\\Android\\PersonIntro\\app\\src\\main\\res\\raw\\d_circle_image_view_6.txt"
     },
     {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\raw\\e_material_drawer_2.txt",
@@ -44,12 +44,8 @@
         "source": "C:\\Android\\PersonIntro\\app\\src\\main\\res\\raw\\f_photo_view_6.txt"
     },
     {
-        "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\raw\\b_circle_image_view_91.txt",
-        "source": "C:\\Android\\PersonIntro\\app\\src\\main\\res\\raw\\b_circle_image_view_91.txt"
-    },
-    {
-        "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\raw\\b_circle_image_view_1.txt",
-        "source": "C:\\Android\\PersonIntro\\app\\src\\main\\res\\raw\\b_circle_image_view_1.txt"
+        "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\raw\\d_circle_image_view_5.txt",
+        "source": "C:\\Android\\PersonIntro\\app\\src\\main\\res\\raw\\d_circle_image_view_5.txt"
     },
     {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\raw\\e_material_drawer_8.txt",
@@ -76,14 +72,6 @@
         "source": "C:\\Android\\PersonIntro\\app\\src\\main\\res\\raw\\a_bootstrap.txt"
     },
     {
-        "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\raw\\b_circle_image_view_4.txt",
-        "source": "C:\\Android\\PersonIntro\\app\\src\\main\\res\\raw\\b_circle_image_view_4.txt"
-    },
-    {
-        "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\raw\\b_circle_image_view_7.txt",
-        "source": "C:\\Android\\PersonIntro\\app\\src\\main\\res\\raw\\b_circle_image_view_7.txt"
-    },
-    {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\raw\\c_iconics_6.txt",
         "source": "C:\\Android\\PersonIntro\\app\\src\\main\\res\\raw\\c_iconics_6.txt"
     },
@@ -92,20 +80,28 @@
         "source": "C:\\Android\\PersonIntro\\app\\src\\main\\res\\raw\\c_iconics_9.txt"
     },
     {
-        "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\raw\\b_circle_image_view_2.txt",
-        "source": "C:\\Android\\PersonIntro\\app\\src\\main\\res\\raw\\b_circle_image_view_2.txt"
+        "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\raw\\d_circle_image_view_1.txt",
+        "source": "C:\\Android\\PersonIntro\\app\\src\\main\\res\\raw\\d_circle_image_view_1.txt"
     },
     {
-        "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\raw\\d_material_dialog.txt",
-        "source": "C:\\Android\\PersonIntro\\app\\src\\main\\res\\raw\\d_material_dialog.txt"
+        "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\raw\\d_circle_image_view_7.txt",
+        "source": "C:\\Android\\PersonIntro\\app\\src\\main\\res\\raw\\d_circle_image_view_7.txt"
     },
     {
-        "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\raw\\g_rounded_image_view_8.txt",
-        "source": "C:\\Android\\PersonIntro\\app\\src\\main\\res\\raw\\g_rounded_image_view_8.txt"
+        "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\raw\\d_circle_image_view_4.txt",
+        "source": "C:\\Android\\PersonIntro\\app\\src\\main\\res\\raw\\d_circle_image_view_4.txt"
+    },
+    {
+        "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\raw\\d_circle_image_view_91.txt",
+        "source": "C:\\Android\\PersonIntro\\app\\src\\main\\res\\raw\\d_circle_image_view_91.txt"
     },
     {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\raw\\g_rounded_image_view_5.txt",
         "source": "C:\\Android\\PersonIntro\\app\\src\\main\\res\\raw\\g_rounded_image_view_5.txt"
+    },
+    {
+        "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\raw\\g_rounded_image_view_8.txt",
+        "source": "C:\\Android\\PersonIntro\\app\\src\\main\\res\\raw\\g_rounded_image_view_8.txt"
     },
     {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\raw\\f_photo_view_4.txt",
@@ -116,12 +112,20 @@
         "source": "C:\\Android\\PersonIntro\\app\\src\\main\\res\\raw\\c_iconics_4.txt"
     },
     {
+        "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\raw\\d_circle_image_view_9.txt",
+        "source": "C:\\Android\\PersonIntro\\app\\src\\main\\res\\raw\\d_circle_image_view_9.txt"
+    },
+    {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\raw\\g_rounded_image_view_2.txt",
         "source": "C:\\Android\\PersonIntro\\app\\src\\main\\res\\raw\\g_rounded_image_view_2.txt"
     },
     {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\raw\\f_photo_view_3.txt",
         "source": "C:\\Android\\PersonIntro\\app\\src\\main\\res\\raw\\f_photo_view_3.txt"
+    },
+    {
+        "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\raw\\d_circle_image_view_3.txt",
+        "source": "C:\\Android\\PersonIntro\\app\\src\\main\\res\\raw\\d_circle_image_view_3.txt"
     },
     {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\raw\\c_iconics_91.txt",
@@ -156,12 +160,16 @@
         "source": "C:\\Android\\PersonIntro\\app\\src\\main\\res\\raw\\e_material_drawer_5.txt"
     },
     {
+        "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\raw\\d_circle_image_view_92.txt",
+        "source": "C:\\Android\\PersonIntro\\app\\src\\main\\res\\raw\\d_circle_image_view_92.txt"
+    },
+    {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\raw\\c_iconics_3.txt",
         "source": "C:\\Android\\PersonIntro\\app\\src\\main\\res\\raw\\c_iconics_3.txt"
     },
     {
-        "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\raw\\b_circle_image_view_8.txt",
-        "source": "C:\\Android\\PersonIntro\\app\\src\\main\\res\\raw\\b_circle_image_view_8.txt"
+        "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\raw\\d_circle_image_view_2.txt",
+        "source": "C:\\Android\\PersonIntro\\app\\src\\main\\res\\raw\\d_circle_image_view_2.txt"
     },
     {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\raw\\g_rounded_image_view_3.txt",
@@ -176,6 +184,10 @@
         "source": "C:\\Android\\PersonIntro\\app\\src\\main\\res\\raw\\g_rounded_image_view_4.txt"
     },
     {
+        "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\raw\\d_circle_image_view_8.txt",
+        "source": "C:\\Android\\PersonIntro\\app\\src\\main\\res\\raw\\d_circle_image_view_8.txt"
+    },
+    {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\raw\\e_material_drawer_9.txt",
         "source": "C:\\Android\\PersonIntro\\app\\src\\main\\res\\raw\\e_material_drawer_9.txt"
     },
@@ -184,12 +196,8 @@
         "source": "C:\\Android\\PersonIntro\\app\\src\\main\\res\\raw\\g_rounded_image_view_7.txt"
     },
     {
-        "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\raw\\b_circle_image_view_92.txt",
-        "source": "C:\\Android\\PersonIntro\\app\\src\\main\\res\\raw\\b_circle_image_view_92.txt"
-    },
-    {
-        "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\raw\\b_circle_image_view_9.txt",
-        "source": "C:\\Android\\PersonIntro\\app\\src\\main\\res\\raw\\b_circle_image_view_9.txt"
+        "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\raw\\b_material_dialog.txt",
+        "source": "C:\\Android\\PersonIntro\\app\\src\\main\\res\\raw\\b_material_dialog.txt"
     },
     {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\raw\\c_iconics_8.txt",
@@ -212,19 +220,11 @@
         "source": "C:\\Android\\PersonIntro\\app\\src\\main\\res\\raw\\e_material_drawer_91.txt"
     },
     {
-        "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\raw\\b_circle_image_view_3.txt",
-        "source": "C:\\Android\\PersonIntro\\app\\src\\main\\res\\raw\\b_circle_image_view_3.txt"
-    },
-    {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\raw\\c_iconics_2.txt",
         "source": "C:\\Android\\PersonIntro\\app\\src\\main\\res\\raw\\c_iconics_2.txt"
     },
     {
         "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\raw\\c_iconics_5.txt",
         "source": "C:\\Android\\PersonIntro\\app\\src\\main\\res\\raw\\c_iconics_5.txt"
-    },
-    {
-        "merged": "C:\\Android\\PersonIntro\\app\\build\\intermediates\\res\\merged\\debug\\raw\\b_circle_image_view_6.txt",
-        "source": "C:\\Android\\PersonIntro\\app\\src\\main\\res\\raw\\b_circle_image_view_6.txt"
     }
 ]

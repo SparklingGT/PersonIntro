@@ -33,4 +33,6 @@
     <color name="ripple_purple">#909069b3</color>
     <color name="ripple_blue">#9037a0f4</color>
 
+    <color name="link_library_license">#FFD50D</color>
+
 </resources>

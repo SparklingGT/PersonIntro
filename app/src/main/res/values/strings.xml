@@ -55,13 +55,13 @@
         \n5) and so on</string>
     <string name="credit_dialog_title">All Credit Goes To</string>
 
-    <string name="link_material_dialog"><a href="https://github.com/afollestad/material-dialogs">GitHub</a></string>
-    <string name="link_material_drawer"><a href="https://github.com/mikepenz/MaterialDrawer">GitHub</a></string>
-    <string name="link_android_bootstrap"><a href="https://github.com/Bearded-Hen/Android-Bootstrap">GitHub</a></string>
-    <string name="link_photo_view"><a href="https://github.com/chrisbanes/PhotoView">GitHub</a></string>
-    <string name="link_circle_image_view"><a href="https://github.com/hdodenhof/CircleImageView">GitHub</a></string>
-    <string name="link_rounded_image_view"><a href="https://github.com/vinc3m1/RoundedImageView">GitHub</a></string>
-    <string name="link_android_iconics"><a href="https://github.com/mikepenz/Android-Iconics">GitHub</a></string>
+    <string name="link_material_dialog"><![CDATA[<a href="https://github.com/afollestad/material-dialogs">GitHub</a>]]></string>
+    <string name="link_material_drawer"><![CDATA[<a href="https://github.com/mikepenz/MaterialDrawer">GitHub</a>]]></string>
+    <string name="link_android_bootstrap"><![CDATA[<a href="https://github.com/Bearded-Hen/Android-Bootstrap">GitHub</a>]]></string>
+    <string name="link_photo_view"><![CDATA[<a href="https://github.com/chrisbanes/PhotoView">GitHub</a>]]></string>
+    <string name="link_circle_image_view"><![CDATA[<a href="https://github.com/hdodenhof/CircleImageView">GitHub</a>]]></string>
+    <string name="link_rounded_image_view"><![CDATA[<a href="https://github.com/vinc3m1/RoundedImageView">GitHub</a>]]></string>
+    <string name="link_android_iconics"><![CDATA[<a href="https://github.com/mikepenz/Android-Iconics">GitHub</a>]]></string>
 
     <string name="title_material_dialog">material-dialogs</string>
     <string name="title_material_drawer">MaterialDrawer</string>
@@ -70,6 +70,8 @@
     <string name="title_circle_image_view">CircleImageView</string>
     <string name="title_rounded_image_view">RoundedImageView</string>
     <string name="title_android_iconics">Android-Iconics</string>
+
+    <string name="suggestion_license">For now, Using landscape mode is recommended.</string>
 
     <string-array name="gender_list">
         <item>Female</item>

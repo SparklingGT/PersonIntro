@@ -13,7 +13,6 @@ import android.graphics.Rect;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
-import android.support.design.widget.Snackbar;
 import android.support.v4.app.Fragment;
 import android.support.v4.content.ContextCompat;
 import android.text.Editable;
@@ -64,9 +63,7 @@ public class PersonDetailFragment extends Fragment implements
     private static final int INT_GENDER_REQUEST = 2985;
     private static final int INT_DELETE_REQUEST = 752;
     private static final int INT_CAMERA_ACTION_REQUEST = 4572;
-    private static final int INT_ERR_NO_PIC_DIR = 23;
-    private static final int INT_ERR_NO_CAMERA = 2124;
-    private static final int INT_ERR_NO_IMAGE_VIEWER = 21;
+    private static final int INT_PLACE_HOLDER = 2475293;
 
     private TextView mIntroExpand;
     private TextView mAssociationExpand;
@@ -457,7 +454,7 @@ public class PersonDetailFragment extends Fragment implements
                 if (resultCode != Activity.RESULT_OK || dataIntent == null) {
                     return;
                 } else if (resultCode == Activity.RESULT_OK) {
-                    int genderResult = dataIntent.getIntExtra(STRING_EXTRA_INT_INTENT, 487539);
+                    int genderResult = dataIntent.getIntExtra(STRING_EXTRA_INT_INTENT, INT_PLACE_HOLDER);
                     switch (genderResult) {
                         case GenderDialog.FEMALE:
                             genderResult = R.string.gender_female;
@@ -470,9 +467,6 @@ public class PersonDetailFragment extends Fragment implements
                         case GenderDialog.MALE:
                             genderResult = R.string.gender_male;
                             mPerson.setGender(Gender.MALE);
-                            break;
-                        default:
-                            Snackbar.make(getView(), R.string.all_error, Snackbar.LENGTH_LONG).show();
                             break;
                     }
                     mGender.setText(genderResult);

@@ -192,6 +192,15 @@ public class LayoutUtils
             }
         });
 
+        itemLicense.withOnDrawerItemClickListener(new Drawer.OnDrawerItemClickListener()
+        {
+            @Override
+            public boolean onItemClick(View view, int position, IDrawerItem drawerItem) {
+                Intent intent = new Intent(context, LicenseActivity.class);
+                context.startActivity(intent);
+                return false;
+            }
+        });
 
     }
 
@@ -228,12 +237,16 @@ public class LayoutUtils
             case PURPLE:
                 selectedColor = R.color.drawer_selected_purple;
                 break;
+            case BLUE:
+                selectedColor = R.color.drawer_selected_blue;
+                break;
             default:
                 selectedColor = R.color.drawer_selected_red;
                 break;
         }
         itemHome.withSelectedColorRes(selectedColor);
         itemSetting.withSelectedColorRes(selectedColor);
+        itemLicense.withSelectedColorRes(selectedColor);
 
         switch (fromWhere) {
             case HOME:
@@ -276,53 +289,5 @@ public class LayoutUtils
                 theme.applyStyle(R.style.RippleBlue, true);
                 break;
         }
-//        switch (fromWhere) {
-//            case HOME:
-//                switch (color) {
-//                    case RED:
-//                        theme.applyStyle(R.style.RippleRed, true);
-//                        break;
-//                    case GREEN:
-//                        theme.applyStyle(R.style.RippleGreen, true);
-//                        break;
-//                    case PURPLE:
-//                        theme.applyStyle(R.style.RipplePurple, true);
-//                        break;
-//                    case BLUE:
-//                        theme.applyStyle(R.style.RippleBlue, true);
-//                        break;
-//                }
-//                break;
-//            case CARD:
-//                switch (color) {
-//                    case RED:
-//                        theme.applyStyle(R.style.RippleRed, true);
-//                        break;
-//                    case GREEN:
-//                        theme.applyStyle(R.style.RippleGreen, true);
-//                        break;
-//                    case PURPLE:
-//                        theme.applyStyle(R.style.RipplePurple, true);
-//                        break;
-//                    case BLUE:
-//                        theme.applyStyle(R.style.RippleBlue, true);
-//                        break;
-//                }
-//                break;
-//            case PREFS:
-//                switch (color) {
-//                    case RED:
-//                        theme.applyStyle(R.style.RippleRed, true);
-//                        break;
-//                    case GREEN:
-//                        theme.applyStyle(R.style.RippleGreen, true);
-//                        break;
-//                    case PURPLE:
-//                        theme.applyStyle(R.style.RipplePurple, true);
-//                        break;
-//                }
-//                break;
-//        }
-
     }
 }

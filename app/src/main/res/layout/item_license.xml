@@ -3,28 +3,38 @@
               xmlns:tools="http://schemas.android.com/tools"
               android:orientation="vertical"
               android:layout_width="match_parent"
-              android:layout_height="match_parent">
+              android:layout_height="wrap_content">
 
     <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
             android:id="@+id/title_license"
-            android:layout_gravity="center_horizontal"
-            android:layout_margin="8dp"
+            android:gravity="center_horizontal"
+            android:textColor="@android:color/white"
+            android:layout_margin="0dp"
             android:textStyle="bold"
-            android:textSize="18sp"
+            android:textSize="21sp"
             tools:text="Overall Image"/>
 
-    <TextView android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+    <TextView android:layout_width="match_parent"
+            android:layout_height="0dp"
+              android:gravity="center_horizontal"
+              android:textColor="@android:color/white"
             android:id="@+id/link_license"
-            android:layout_gravity="center_horizontal"
-              android:layout_margin="4dp"
+              android:layout_margin="0dp"
+              android:textSize="18sp"
             tools:text="gitHub"/>
 
     <TextView android:layout_width="match_parent"
               android:layout_height="wrap_content"
-              android:layout_margin="4dp"
+              android:layout_marginLeft="4dp"
+              android:layout_marginRight="4dp"
+              android:typeface="monospace"
+              android:paddingEnd="8dp"
+              android:paddingStart="8dp"
+              android:textColor="@android:color/white"
+              android:background="@color/md_blue_900"
+              android:textSize="12sp"
               android:id="@+id/content_license"/>
 
 </LinearLayout>

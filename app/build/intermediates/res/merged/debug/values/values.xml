@@ -2154,6 +2154,7 @@
     <color name="item_text_drawer">#eeeeee</color>
     <color name="licensePrimary">#2196F3</color>
     <color name="licensePrimaryDark">#1a78c2</color>
+    <color name="link_library_license">#FFD50D</color>
     <color name="material_blue_grey_800">#ff37474f</color>
     <color name="material_blue_grey_900">#ff263238</color>
     <color name="material_blue_grey_950">#ff21272b</color>
@@ -4251,13 +4252,13 @@
     <string name="library_roundedimageview_libraryWebsite">https://github.com/vinc3m1/RoundedImageView</string>
     <string name="library_roundedimageview_licenseId">apache_2_0</string>
     <string name="library_roundedimageview_repositoryLink">https://github.com/vinc3m1/RoundedImageView.git</string>
-    <string name="link_android_bootstrap"><a href="https://github.com/Bearded-Hen/Android-Bootstrap">GitHub</a></string>
-    <string name="link_android_iconics"><a href="https://github.com/mikepenz/Android-Iconics">GitHub</a></string>
-    <string name="link_circle_image_view"><a href="https://github.com/hdodenhof/CircleImageView">GitHub</a></string>
-    <string name="link_material_dialog"><a href="https://github.com/afollestad/material-dialogs">GitHub</a></string>
-    <string name="link_material_drawer"><a href="https://github.com/mikepenz/MaterialDrawer">GitHub</a></string>
-    <string name="link_photo_view"><a href="https://github.com/chrisbanes/PhotoView">GitHub</a></string>
-    <string name="link_rounded_image_view"><a href="https://github.com/vinc3m1/RoundedImageView">GitHub</a></string>
+    <string name="link_android_bootstrap">&lt;a href="https://github.com/Bearded-Hen/Android-Bootstrap">GitHub&lt;/a></string>
+    <string name="link_android_iconics">&lt;a href="https://github.com/mikepenz/Android-Iconics">GitHub&lt;/a></string>
+    <string name="link_circle_image_view">&lt;a href="https://github.com/hdodenhof/CircleImageView">GitHub&lt;/a></string>
+    <string name="link_material_dialog">&lt;a href="https://github.com/afollestad/material-dialogs">GitHub&lt;/a></string>
+    <string name="link_material_drawer">&lt;a href="https://github.com/mikepenz/MaterialDrawer">GitHub&lt;/a></string>
+    <string name="link_photo_view">&lt;a href="https://github.com/chrisbanes/PhotoView">GitHub&lt;/a></string>
+    <string name="link_rounded_image_view">&lt;a href="https://github.com/vinc3m1/RoundedImageView">GitHub&lt;/a></string>
     <string name="material_drawer_close">Close</string>
     <string name="material_drawer_open">Open</string>
     <string name="md_back_label">Back</string>
@@ -4279,6 +4280,7 @@
     <string name="person_note_title">Note</string>
     <string name="search_menu_title">Search</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="suggestion_license">For now, Using landscape mode is recommended.</string>
     <string name="time_picker_back">BACK</string>
     <string name="title_android_bootstrap">Android-Bootstrap</string>
     <string name="title_android_iconics">Android-Iconics</string>
@@ -4305,7 +4307,6 @@
         <item name="drawerArrowStyle">@style/MyDrawerArrowToggle</item>
 
         <item name="android:colorControlHighlight">@color/ripple_purple</item>
-        <!--this somehow fix the prefs ripple issue.... why? -->
         <!-- TODO : Ripple color in toolbar drop down menu  -->
     </style>
     <style name="Base.AlertDialog.AppCompat" parent="android:Widget">
@@ -5341,7 +5342,6 @@
         <item name="drawerArrowStyle">@style/MyDrawerArrowToggle</item>
 
         <item name="android:colorControlHighlight">@color/ripple_green</item>
-        <!--this somehow fix the prefs ripple issue.... why? -->
         <!-- TODO : Ripple color in toolbar drop down menu  -->
     </style>
     <style name="CardView" parent="Base.CardView">
@@ -5351,6 +5351,19 @@
     </style>
     <style name="CardView.Light">
         <item name="cardBackgroundColor">@color/cardview_light_background</item>
+    </style>
+    <style name="LicenseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/licensePrimary</item>
+        <item name="colorPrimaryDark">@color/licensePrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:buttonStyle">@style/myButtonStyle</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:colorBackground">@color/md_blue_700</item>
+        <item name="drawerArrowStyle">@style/MyDrawerArrowToggle</item>
+
+        <item name="android:colorControlHighlight">@color/ripple_blue</item>
+        <!-- TODO : Ripple color in toolbar drop down menu  -->
     </style>
     <style name="MD_ActionButton">
         <item name="android:layout_width">wrap_content</item>
