@@ -10,7 +10,17 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c3252ec-7af2-4154-8bb7-68e867c66262" name="Default" comment="" />
+    <list default="true" id="8c3252ec-7af2-4154-8bb7-68e867c66262" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/design_24_2_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/design_24_2_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+    </list>
     <ignored path="PersonIntro.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,23 +57,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
               <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-              <folding>
-                <element signature="e#2265#2303#0" expanded="true" />
-                <element signature="e#4722#4765#0" expanded="true" />
-                <element signature="e#4902#4944#0" expanded="true" />
-                <element signature="e#5045#5086#0" expanded="true" />
-                <element signature="e#5125#5165#0" expanded="true" />
-                <element signature="e#5255#5296#0" expanded="true" />
-                <element signature="e#5335#5375#0" expanded="true" />
-                <element signature="e#5476#5517#0" expanded="true" />
-                <element signature="e#5556#5596#0" expanded="true" />
-                <element signature="e#5687#5723#0" expanded="true" />
-                <element signature="e#5762#5797#0" expanded="true" />
-                <element signature="e#5889#5932#0" expanded="true" />
-                <element signature="e#5971#6013#0" expanded="true" />
-                <element signature="e#6106#6150#0" expanded="true" />
-                <element signature="e#6189#6232#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -71,21 +65,31 @@
       <file leaf-file-name="LicenseActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/comli/dawnbreaksthrough/personalintro/LicenseActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
+            <state relative-caret-position="782">
               <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="item_license.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="item_license.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_license.xml">
           <provider editor-type-id="android-designer2">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
+            <state relative-caret-position="162">
               <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="918">
+              <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -1883,13 +1887,13 @@
         <option value="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values/values.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_license.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/scrollbar_license.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/comli/dawnbreaksthrough/personalintro/PersonDetailFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/comli/dawnbreaksthrough/personalintro/LicenseFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/comli/dawnbreaksthrough/personalintro/LicenseActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/item_license.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
       </list>
     </option>
   </component>
@@ -1910,7 +1914,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -1923,27 +1927,17 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="ProjectPane">
-        <subPane />
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView">
-        <subPane />
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="device.picker.selection" value="192.168.1.110:5555" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Android/PersonIntro/app/src/main/res/layout/item_license.xml&#10;licena&#9;FILE&#9;file://C:/Android/PersonIntro/app/src/main/java/com/comli/dawnbreaksthrough/personalintro/LicenseActivity.java&#10;fra&#9;FILE&#9;file://C:/Android/PersonIntro/app/src/main/res/layout/fragment_license.xml&#10;recy&#9;PSI&#9;JAVA://com.comli.dawnbreaksthrough.personalintro.R.id#recycler_view_license&#10;string&#9;FILE&#9;file://C:/Android/PersonIntro/app/src/main/res/values/strings.xml&#10;col&#9;FILE&#9;file://C:/Android/PersonIntro/app/src/main/res/values/colors.xml&#10;styles&#9;FILE&#9;file://C:/Android/PersonIntro/app/src/main/res/values/styles.xml&#10;ba&#9;PSI&#9;JAVA://com.comli.dawnbreaksthrough.personalintro.BasicDialog&#10;layout&#9;FILE&#9;file://C:/Android/PersonIntro/app/src/main/java/com/comli/dawnbreaksthrough/personalintro/LayoutUtils.java&#10;strings&#9;FILE&#9;file://C:/Android/PersonIntro/app/src/main/res/values/strings.xml&#10;sett&#9;FILE&#9;file://C:/Android/PersonIntro/app/src/main/java/com/comli/dawnbreaksthrough/personalintro/SettingActivity.java&#10;style&#9;FILE&#9;file://C:/Android/PersonIntro/app/src/main/res/values/styles.xml&#10;colo&#9;FILE&#9;file://C:/Android/PersonIntro/app/src/main/res/values/colors.xml&#10;start&#9;PSI&#9;JAVA://com.comli.dawnbreaksthrough.personalintro.StartActivity&#10;build.&#9;FILE&#9;file://C:/Android/PersonIntro/app/build.gradle&#10;app&#9;RUN_CONFIGURATION&#9;app" />
+    <property name="SearchEverywhereHistoryKey" value="setting&#9;FILE&#9;file://C:/Android/PersonIntro/app/src/main/java/com/comli/dawnbreaksthrough/personalintro/SettingActivity.java&#10;string&#9;FILE&#9;file://C:/Android/PersonIntro/app/src/main/res/values/strings.xml&#10;licena&#9;FILE&#9;file://C:/Android/PersonIntro/app/src/main/java/com/comli/dawnbreaksthrough/personalintro/LicenseActivity.java&#10;fra&#9;FILE&#9;file://C:/Android/PersonIntro/app/src/main/res/layout/fragment_license.xml&#10;recy&#9;PSI&#9;JAVA://com.comli.dawnbreaksthrough.personalintro.R.id#recycler_view_license&#10;col&#9;FILE&#9;file://C:/Android/PersonIntro/app/src/main/res/values/colors.xml&#10;styles&#9;FILE&#9;file://C:/Android/PersonIntro/app/src/main/res/values/styles.xml&#10;ba&#9;PSI&#9;JAVA://com.comli.dawnbreaksthrough.personalintro.BasicDialog&#10;layout&#9;FILE&#9;file://C:/Android/PersonIntro/app/src/main/java/com/comli/dawnbreaksthrough/personalintro/LayoutUtils.java&#10;strings&#9;FILE&#9;file://C:/Android/PersonIntro/app/src/main/res/values/strings.xml&#10;sett&#9;FILE&#9;file://C:/Android/PersonIntro/app/src/main/java/com/comli/dawnbreaksthrough/personalintro/SettingActivity.java&#10;style&#9;FILE&#9;file://C:/Android/PersonIntro/app/src/main/res/values/styles.xml&#10;colo&#9;FILE&#9;file://C:/Android/PersonIntro/app/src/main/res/values/colors.xml&#10;start&#9;PSI&#9;JAVA://com.comli.dawnbreaksthrough.personalintro.StartActivity&#10;build.&#9;FILE&#9;file://C:/Android/PersonIntro/app/build.gradle&#10;app&#9;RUN_CONFIGURATION&#9;app" />
     <property name="UI_DESIGNER_EDITOR_MODE.NlPaletteManager-NlPreviewForm.SHOW" value="false" />
     <property name="android.project.structure.last.selected" value="app" />
     <property name="android.project.structure.proportion" value="0.15" />
@@ -2271,7 +2265,6 @@
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2294,6 +2287,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964602" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -2317,25 +2311,36 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/comli/dawnbreaksthrough/personalintro/LicenseFragment.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/comli/dawnbreaksthrough/personalintro/LicenseActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_license.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/comli/dawnbreaksthrough/personalintro/LicenseFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#2265#2303#0" expanded="true" />
-            <element signature="e#4722#4765#0" expanded="true" />
-            <element signature="e#4902#4944#0" expanded="true" />
-            <element signature="e#5045#5086#0" expanded="true" />
-            <element signature="e#5125#5165#0" expanded="true" />
-            <element signature="e#5255#5296#0" expanded="true" />
-            <element signature="e#5335#5375#0" expanded="true" />
-            <element signature="e#5476#5517#0" expanded="true" />
-            <element signature="e#5556#5596#0" expanded="true" />
-            <element signature="e#5687#5723#0" expanded="true" />
-            <element signature="e#5762#5797#0" expanded="true" />
-            <element signature="e#5889#5932#0" expanded="true" />
-            <element signature="e#5971#6013#0" expanded="true" />
-            <element signature="e#6106#6150#0" expanded="true" />
-            <element signature="e#6189#6232#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2365,9 +2370,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2411,9 +2413,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="37" column="55" selection-start-line="37" selection-start-column="55" selection-end-line="37" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2458,14 +2457,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/comli/dawnbreaksthrough/personalintro/SettingActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/comli/dawnbreaksthrough/personalintro/LayoutUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="904">
@@ -2489,7 +2480,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1435">
           <caret line="94" column="36" selection-start-line="94" selection-start-column="36" selection-end-line="94" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2521,7 +2511,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="5358" column="44" selection-start-line="5358" selection-start-column="44" selection-end-line="5358" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2565,14 +2554,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="73" column="29" selection-start-line="73" selection-start-column="29" selection-end-line="73" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/scrollbar_license.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -2596,7 +2577,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3624">
           <caret line="459" column="66" selection-start-line="459" selection-start-column="66" selection-end-line="459" selection-end-column="66" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2612,29 +2592,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <element signature="e#2265#2303#0" expanded="true" />
-            <element signature="e#4722#4765#0" expanded="true" />
-            <element signature="e#4902#4944#0" expanded="true" />
-            <element signature="e#5045#5086#0" expanded="true" />
-            <element signature="e#5125#5165#0" expanded="true" />
-            <element signature="e#5255#5296#0" expanded="true" />
-            <element signature="e#5335#5375#0" expanded="true" />
-            <element signature="e#5476#5517#0" expanded="true" />
-            <element signature="e#5556#5596#0" expanded="true" />
-            <element signature="e#5687#5723#0" expanded="true" />
-            <element signature="e#5762#5797#0" expanded="true" />
-            <element signature="e#5889#5932#0" expanded="true" />
-            <element signature="e#5971#6013#0" expanded="true" />
-            <element signature="e#6106#6150#0" expanded="true" />
-            <element signature="e#6189#6232#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/comli/dawnbreaksthrough/personalintro/LicenseActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
+        <state relative-caret-position="782">
           <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
           <folding />
         </state>
@@ -2645,8 +2609,46 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
+        <state relative-caret-position="162">
           <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_setting.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/comli/dawnbreaksthrough/personalintro/SettingActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/preferences.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding />
         </state>
       </provider>

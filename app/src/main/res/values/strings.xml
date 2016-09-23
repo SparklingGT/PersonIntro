@@ -46,7 +46,7 @@
 
     <string name="about_dialog_content">This project is launched on 12/09/16, right now it hasn\'t been finished yet.
     \n\nI will probably stop in the middle and come back when I finish the book <i>\"Android Programming: The Big Nerd Ranch Guide (2nd Edition)\"</i>.
-    \n\nAs for now, the app is <b>NOT</b> currently actively developing by me.</string>
+    \n\nAs for now, the app is <b>NOT</b> currently being actively developed.</string>
     <string name="about_dialog_title">About</string>
     <string name="credit_dialog_content">1) Stack Overflow
         \n2) <i>\"Android Programming: The Big Nerd Ranch Guide (2nd Edition)\"</i>
